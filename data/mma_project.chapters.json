@@ -1,0 +1,2357 @@
+[{
+  "_id": {
+    "$oid": "69b29fea3910cc0c3a02b01b"
+  },
+  "storyId": {
+    "$oid": "69b29f6f3910cc0c3a02b01a"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.721Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/1.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/2.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/3.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/4.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/5.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/6.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/7.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/8.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/9.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/10.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/11.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/12.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/13.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/14.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/15.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/16.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/17.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/18.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/1/19.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2a04f3910cc0c3a02b01c"
+  },
+  "storyId": {
+    "$oid": "69b29f6f3910cc0c3a02b01a"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.721Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/1.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/2.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/3.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/4.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/5.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/6.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/7.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/8.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/9.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/10.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/11.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/12.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/13.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/14.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/2/15.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2a0af3910cc0c3a02b01d"
+  },
+  "storyId": {
+    "$oid": "69b29f6f3910cc0c3a02b01a"
+  },
+  "__v": 1,
+  "chapterNumber": 3,
+  "chapterTitle": "Chapter 3",
+  "updatedAt": {
+    "$date": "2026-03-25T07:26:01.846Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/3/1.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/3/2.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/3/3.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/3/4.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/3/5.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/3/6.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/3/7.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/3/8.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/3/9.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/3/10.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/3/11.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/3/12.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/3/13.jpg",
+    "https://imgx.mghcdn.com/swordmaster-s-youngest-son/3/14.jpg"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2a20a3910cc0c3a02b01f"
+  },
+  "storyId": {
+    "$oid": "69b2a1f23910cc0c3a02b01e"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.734Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/martial-peak/1/1.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/2.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/3.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/4.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/5.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/6.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/7.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/8.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/9.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/10.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/11.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/12.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/13.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/14.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/15.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/16.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/17.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/18.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/19.jpg",
+    "https://imgx.mghcdn.com/martial-peak/1/20.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2a2253910cc0c3a02b020"
+  },
+  "storyId": {
+    "$oid": "69b2a1f23910cc0c3a02b01e"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.734Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/martial-peak/2/1.jpg",
+    "https://imgx.mghcdn.com/martial-peak/2/2.jpg",
+    "https://imgx.mghcdn.com/martial-peak/2/3.jpg",
+    "https://imgx.mghcdn.com/martial-peak/2/4.jpg",
+    "https://imgx.mghcdn.com/martial-peak/2/5.jpg",
+    "https://imgx.mghcdn.com/martial-peak/2/6.jpg",
+    "https://imgx.mghcdn.com/martial-peak/2/7.jpg",
+    "https://imgx.mghcdn.com/martial-peak/2/8.jpg",
+    "https://imgx.mghcdn.com/martial-peak/2/9.jpg",
+    "https://imgx.mghcdn.com/martial-peak/2/10.jpg",
+    "https://imgx.mghcdn.com/martial-peak/2/11.jpg",
+    "https://imgx.mghcdn.com/martial-peak/2/12.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2a23d3910cc0c3a02b021"
+  },
+  "storyId": {
+    "$oid": "69b2a1f23910cc0c3a02b01e"
+  },
+  "__v": 1,
+  "chapterNumber": 3,
+  "chapterTitle": "Chapter 3",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.736Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/martial-peak/3/1.jpg",
+    "https://imgx.mghcdn.com/martial-peak/3/2.jpg",
+    "https://imgx.mghcdn.com/martial-peak/3/3.jpg",
+    "https://imgx.mghcdn.com/martial-peak/3/4.jpg",
+    "https://imgx.mghcdn.com/martial-peak/3/5.jpg",
+    "https://imgx.mghcdn.com/martial-peak/3/6.jpg",
+    "https://imgx.mghcdn.com/martial-peak/3/7.jpg",
+    "https://imgx.mghcdn.com/martial-peak/3/8.jpg",
+    "https://imgx.mghcdn.com/martial-peak/3/9.jpg",
+    "https://imgx.mghcdn.com/martial-peak/3/10.jpg",
+    "https://imgx.mghcdn.com/martial-peak/3/11.jpg",
+    "https://imgx.mghcdn.com/martial-peak/3/12.jpg"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2bb6c3910cc0c3a02b027"
+  },
+  "storyId": {
+    "$oid": "69b2bb4d3910cc0c3a02b026"
+  },
+  "__v": 1,
+  "chapterNumber": 0,
+  "chapterTitle": "Chapter 0",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.737Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/solo-leveling/0/1.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/0/2.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/0/3.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/0/4.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/0/5.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/0/6.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/0/7.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/0/8.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/0/9.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/0/10.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/0/11.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/0/12.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2bba03910cc0c3a02b028"
+  },
+  "storyId": {
+    "$oid": "69b2bb4d3910cc0c3a02b026"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.737Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/solo-leveling/1/1.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/2.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/3.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/4.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/5.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/6.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/7.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/8.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/9.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/10.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/11.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/12.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/13.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/14.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/15.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/16.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/17.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/18.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/19.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/20.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/21.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/1/22.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2bbd23910cc0c3a02b029"
+  },
+  "storyId": {
+    "$oid": "69b2bb4d3910cc0c3a02b026"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.740Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/solo-leveling/2/1.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/2.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/3.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/4.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/5.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/6.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/7.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/8.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/9.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/10.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/11.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/12.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/13.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/14.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/15.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/16.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/17.jpg",
+    "https://imgx.mghcdn.com/solo-leveling/2/18.jpg"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2bee63910cc0c3a02b02b"
+  },
+  "storyId": {
+    "$oid": "69b2bcac3910cc0c3a02b02a"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.741Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/blue-lock/1/1.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/2.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/3.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/4.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/5.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/6.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/7.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/8.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/9.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/10.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/11.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/12.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/13.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/14.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/15.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/16.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/17.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/18.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/19.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/20.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/21.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/22.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/23.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/24.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/25.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/26.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/27.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/28.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/29.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/30.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/31.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/32.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/33.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/34.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/35.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/36.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/37.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/38.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/39.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/40.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/41.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/42.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/43.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/44.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/45.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/46.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/47.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/48.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/49.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/50.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/51.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/52.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/53.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/54.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/55.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/56.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/57.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/58.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/59.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/60.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/61.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/62.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/63.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/64.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/65.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/66.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/67.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/68.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/69.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/70.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/71.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/72.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/73.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/74.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/75.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/76.jpg",
+    "https://imgx.mghcdn.com/blue-lock/1/77.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2bf413910cc0c3a02b02c"
+  },
+  "storyId": {
+    "$oid": "69b2bcac3910cc0c3a02b02a"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.741Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/blue-lock/2/1.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/2.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/3.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/4.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/5.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/6.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/7.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/8.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/9.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/10.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/11.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/12.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/13.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/14.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/15.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/16.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/17.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/18.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/19.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/20.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/21.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/22.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/23.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/24.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/25.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/26.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/27.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/28.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/29.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/30.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/31.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/32.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/33.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/34.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/35.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/36.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/37.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/38.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/39.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/40.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/41.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/42.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/43.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/44.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/45.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/46.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/47.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/48.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/49.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/50.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/51.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/52.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/53.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/54.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/55.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/56.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/57.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/58.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/59.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/60.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/61.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/62.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/63.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/64.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/65.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/66.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/67.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/68.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/69.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/70.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/71.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/72.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/73.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/74.jpg",
+    "https://imgx.mghcdn.com/blue-lock/2/75.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2bf663910cc0c3a02b02d"
+  },
+  "storyId": {
+    "$oid": "69b2bcac3910cc0c3a02b02a"
+  },
+  "__v": 1,
+  "chapterNumber": 3,
+  "chapterTitle": "Chapter 3",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.743Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/blue-lock/3/1.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/2.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/3.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/4.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/5.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/6.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/7.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/8.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/9.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/10.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/11.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/12.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/13.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/14.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/15.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/16.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/17.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/18.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/19.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/20.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/21.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/22.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/23.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/24.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/25.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/26.jpg",
+    "https://imgx.mghcdn.com/blue-lock/3/27.jpg"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2bfbf3910cc0c3a02b02f"
+  },
+  "storyId": {
+    "$oid": "69b2bf8d3910cc0c3a02b02e"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.743Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/chainsaw-man/1/1.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/2.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/3.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/4.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/5.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/6.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/7.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/8.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/9.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/10.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/11.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/12.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/13.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/14.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/15.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/16.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/17.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/18.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/19.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/20.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/21.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/22.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/23.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/24.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/25.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/26.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/27.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/28.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/29.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/30.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/31.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/32.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/33.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/34.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/35.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/36.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/37.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/38.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/39.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/40.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/41.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/42.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/43.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/44.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/45.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/46.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/47.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/48.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/49.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/50.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/51.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/1/52.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2bfe93910cc0c3a02b030"
+  },
+  "storyId": {
+    "$oid": "69b2bf8d3910cc0c3a02b02e"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.743Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/chainsaw-man/2/1.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/2.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/3.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/4.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/5.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/6.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/7.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/8.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/9.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/10.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/11.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/12.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/13.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/14.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/15.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/16.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/17.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/18.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/19.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/20.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/21.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/22.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/23.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/24.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/25.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/2/26.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c00e3910cc0c3a02b031"
+  },
+  "storyId": {
+    "$oid": "69b2bf8d3910cc0c3a02b02e"
+  },
+  "__v": 1,
+  "chapterNumber": 3,
+  "chapterTitle": "Chapter 3",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.746Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/chainsaw-man/3/1.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/2.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/3.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/4.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/5.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/6.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/7.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/8.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/9.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/10.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/11.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/12.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/13.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/14.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/15.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/16.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/17.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/18.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/19.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/20.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/21.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/22.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/23.jpg",
+    "https://imgx.mghcdn.com/chainsaw-man/3/24.jpg"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2c03b3910cc0c3a02b033"
+  },
+  "storyId": {
+    "$oid": "69b2c0233910cc0c3a02b032"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.746Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/1/1.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/1/2.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/1/3.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/1/4.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/1/5.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/1/6.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/1/7.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/1/8.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/1/9.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/1/10.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/1/11.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/1/12.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/1/13.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/1/14.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c0573910cc0c3a02b034"
+  },
+  "storyId": {
+    "$oid": "69b2c0233910cc0c3a02b032"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.746Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/2/1.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/2/2.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/2/3.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/2/4.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/2/5.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/2/6.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/2/7.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/2/8.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/2/9.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/2/10.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/2/11.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/2/12.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/2/13.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c0743910cc0c3a02b035"
+  },
+  "storyId": {
+    "$oid": "69b2c0233910cc0c3a02b032"
+  },
+  "__v": 1,
+  "chapterNumber": 3,
+  "chapterTitle": "Chapter 3",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.748Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/1.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/2.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/3.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/4.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/5.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/6.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/7.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/8.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/9.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/10.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/11.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/12.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/13.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/14.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/15.jpg",
+    "https://imgx.mghcdn.com/tales-of-demons-and-gods/3/16.jpg"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2c2193910cc0c3a02b03b"
+  },
+  "storyId": {
+    "$oid": "69b2c1d83910cc0c3a02b03a"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.752Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/one-piece/1/1.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/2.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/3.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/4.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/5.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/6.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/7.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/8.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/9.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/10.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/11.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/12.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/13.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/14.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/15.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/16.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/17.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/18.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/19.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/20.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/21.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/22.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/23.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/24.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/25.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/26.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/27.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/28.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/29.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/30.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/31.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/32.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/33.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/34.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/35.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/36.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/37.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/38.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/39.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/40.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/41.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/42.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/43.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/44.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/45.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/46.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/47.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/48.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/49.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/50.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/51.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/52.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/53.jpg",
+    "https://imgx.mghcdn.com/one-piece/1/54.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c22f3910cc0c3a02b03c"
+  },
+  "storyId": {
+    "$oid": "69b2c1d83910cc0c3a02b03a"
+  },
+  "__v": 1,
+  "chapterNumber": 1.1,
+  "chapterTitle": "Chapter 1.1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.752Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/one-piece/1.1/1.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/2.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/3.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/4.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/5.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/6.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/7.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/8.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/9.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/10.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/11.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/12.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/13.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/14.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/15.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/16.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/17.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/18.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/19.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/20.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/21.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/22.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/23.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/24.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/25.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/26.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/27.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/28.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/29.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.1/30.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c2603910cc0c3a02b03d"
+  },
+  "storyId": {
+    "$oid": "69b2c1d83910cc0c3a02b03a"
+  },
+  "__v": 1,
+  "chapterNumber": 1.2,
+  "chapterTitle": "Chapter 1.2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.753Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/one-piece/1.2/1.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/2.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/3.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/4.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/5.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/6.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/7.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/8.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/9.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/10.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/11.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/12.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/13.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/14.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/15.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/16.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/17.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/18.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/19.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/20.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/21.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/22.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/23.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/24.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/25.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/26.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/27.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/28.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/29.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/30.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/31.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/32.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/33.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/34.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/35.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/36.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/37.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/38.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/39.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/40.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/41.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/42.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/43.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/44.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/45.jpg",
+    "https://imgx.mghcdn.com/one-piece/1.2/46.jpg"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2c2a73910cc0c3a02b03f"
+  },
+  "storyId": {
+    "$oid": "69b2c27d3910cc0c3a02b03e"
+  },
+  "__v": 1,
+  "chapterNumber": 0,
+  "chapterTitle": "Chapter 0",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.754Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/magic-emperor/0/1.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/2.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/3.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/4.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/5.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/6.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/7.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/8.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/9.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/10.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/11.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/12.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/13.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/14.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/15.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/16.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/17.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/18.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/19.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/20.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/21.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/22.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/23.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/24.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/25.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/26.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/27.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/28.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/29.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/30.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/0/31.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c3003910cc0c3a02b040"
+  },
+  "storyId": {
+    "$oid": "69b2c27d3910cc0c3a02b03e"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.754Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/magic-emperor/1/1.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/2.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/3.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/4.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/5.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/6.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/7.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/8.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/9.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/10.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/11.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/12.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/13.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/14.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/15.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/16.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/17.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/18.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/19.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/20.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/21.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/22.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/23.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/24.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/25.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/26.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/27.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/28.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/29.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/30.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/31.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/32.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/33.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/34.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/35.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/36.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/37.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/38.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/39.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/40.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/41.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/42.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/43.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/44.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/45.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/46.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/47.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/48.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/49.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/50.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/51.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/52.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/53.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/54.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/55.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/56.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/57.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/58.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/59.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/60.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/61.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/62.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/63.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/64.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/65.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/66.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/67.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/68.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/69.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/70.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/71.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/72.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/73.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/74.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/75.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/76.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/77.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/78.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/79.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/80.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/81.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/82.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/1/83.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c3493910cc0c3a02b041"
+  },
+  "storyId": {
+    "$oid": "69b2c27d3910cc0c3a02b03e"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.756Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/magic-emperor/2/1.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/2.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/3.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/4.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/5.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/6.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/7.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/8.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/9.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/10.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/11.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/12.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/13.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/14.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/15.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/16.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/17.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/18.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/19.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/20.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/21.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/22.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/23.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/24.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/25.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/26.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/27.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/28.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/29.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/30.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/31.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/32.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/33.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/34.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/35.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/36.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/37.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/38.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/39.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/40.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/41.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/42.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/43.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/44.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/45.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/46.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/47.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/48.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/49.jpg",
+    "https://imgx.mghcdn.com/magic-emperor/2/50.jpg"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2c3933910cc0c3a02b043"
+  },
+  "storyId": {
+    "$oid": "69b2c35d3910cc0c3a02b042"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.757Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/1.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/2.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/3.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/4.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/5.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/6.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/7.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/8.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/9.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/10.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/11.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/12.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/13.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/14.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/15.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/16.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/17.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/18.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/19.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/20.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/21.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/22.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/23.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/24.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/25.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/26.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/27.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/28.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/29.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/30.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/31.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/32.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/33.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/34.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/35.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/36.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/37.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/38.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/39.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/40.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/41.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/42.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/43.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/44.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/45.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/46.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/47.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/48.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/49.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/1/50.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c3d73910cc0c3a02b044"
+  },
+  "storyId": {
+    "$oid": "69b2c35d3910cc0c3a02b042"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.757Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/1.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/2.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/3.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/4.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/5.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/6.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/7.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/8.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/9.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/10.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/11.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/12.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/13.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/14.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/15.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/16.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/17.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/18.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/19.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/20.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/21.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/22.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/23.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/24.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/25.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/26.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/27.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/28.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/29.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/30.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/31.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/32.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/33.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/34.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/35.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/36.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/37.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/38.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/39.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/40.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/41.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/42.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/43.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/44.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/45.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/46.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/47.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/48.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/49.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/50.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/51.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/52.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/53.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/2/54.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c40f3910cc0c3a02b045"
+  },
+  "storyId": {
+    "$oid": "69b2c35d3910cc0c3a02b042"
+  },
+  "__v": 1,
+  "chapterNumber": 3,
+  "chapterTitle": "Chapter 3",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.759Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/1.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/2.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/3.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/4.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/5.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/6.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/7.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/8.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/9.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/10.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/11.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/12.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/13.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/14.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/15.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/16.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/17.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/18.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/19.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/20.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/21.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/22.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/23.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/24.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/25.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/26.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/27.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/28.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/29.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/30.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/31.jpg",
+    "https://imgx.mghcdn.com/the-beginning-after-the-end/3/32.jpg"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2c43f3910cc0c3a02b047"
+  },
+  "storyId": {
+    "$oid": "69b2c4273910cc0c3a02b046"
+  },
+  "__v": 1,
+  "chapterNumber": 0,
+  "chapterTitle": "Chapter 0",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.759Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/tower-of-god/0/1.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/0/2.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c4763910cc0c3a02b048"
+  },
+  "storyId": {
+    "$oid": "69b2c4273910cc0c3a02b046"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.759Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/tower-of-god/1/1.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/2.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/3.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/4.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/5.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/6.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/7.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/8.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/9.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/10.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/11.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/12.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/13.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/14.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/15.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/16.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/17.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/18.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/19.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/20.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/21.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/22.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/23.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/24.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/25.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/26.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/27.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/28.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/29.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/30.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/31.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/32.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/33.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/34.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/35.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/36.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/37.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/38.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/39.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/40.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/41.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/42.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/43.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/44.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/45.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/46.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/47.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/48.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/49.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/50.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/1/51.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c4b53910cc0c3a02b049"
+  },
+  "storyId": {
+    "$oid": "69b2c4273910cc0c3a02b046"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.761Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/tower-of-god/2/1.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/2.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/3.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/4.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/5.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/6.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/7.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/8.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/9.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/10.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/11.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/12.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/13.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/14.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/15.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/16.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/17.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/18.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/19.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/20.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/21.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/22.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/23.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/24.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/25.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/26.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/27.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/28.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/29.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/30.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/31.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/32.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/33.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/34.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/35.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/36.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/37.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/38.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/39.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/40.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/41.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/42.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/43.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/44.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/45.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/46.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/47.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/48.jpg",
+    "https://imgx.mghcdn.com/tower-of-god/2/49.jpg"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2c5093910cc0c3a02b04b"
+  },
+  "storyId": {
+    "$oid": "69b2c4c73910cc0c3a02b04a"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.761Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/1/1.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/1/2.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/1/3.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/1/4.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/1/5.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/1/6.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/1/7.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/1/8.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/1/9.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/1/10.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/1/11.png"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c5473910cc0c3a02b04c"
+  },
+  "storyId": {
+    "$oid": "69b2c4c73910cc0c3a02b04a"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.761Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/2/1.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/2/2.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/2/3.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/2/4.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/2/5.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/2/6.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/2/7.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/2/8.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/2/9.png"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c5843910cc0c3a02b04d"
+  },
+  "storyId": {
+    "$oid": "69b2c4c73910cc0c3a02b04a"
+  },
+  "__v": 1,
+  "chapterNumber": 3,
+  "chapterTitle": "Chapter 3",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.763Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/3/1.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/3/2.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/3/3.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/3/4.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/3/5.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/3/6.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/3/7.png",
+    "https://imgx.mghcdn.com/a-returner-s-magic-should-be-special/3/8.png"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2c6063910cc0c3a02b04f"
+  },
+  "storyId": {
+    "$oid": "69b2c59d3910cc0c3a02b04e"
+  },
+  "__v": 1,
+  "chapterNumber": 0,
+  "chapterTitle": "Chapter 0",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.763Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/1.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/2.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/3.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/4.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/5.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/6.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/7.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/8.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/9.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/10.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/11.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/12.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/13.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/14.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/15.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/16.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/17.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/18.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/19.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/20.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/21.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/22.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/23.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/24.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/25.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/26.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/27.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/28.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/29.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/30.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/31.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/32.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/33.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/34.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/0/35.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c6853910cc0c3a02b050"
+  },
+  "storyId": {
+    "$oid": "69b2c59d3910cc0c3a02b04e"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.763Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/1.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/2.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/3.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/4.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/5.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/6.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/7.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/8.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/9.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/10.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/11.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/12.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/13.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/14.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/15.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/16.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/17.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/18.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/19.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/20.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/21.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/22.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/23.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/24.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/25.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/26.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/27.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/28.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/29.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/30.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/31.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/32.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/33.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/34.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/35.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/36.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/37.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/38.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/39.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/1/40.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c7203910cc0c3a02b051"
+  },
+  "storyId": {
+    "$oid": "69b2c59d3910cc0c3a02b04e"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.765Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/mercenary-enrollment/2/1.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/2/2.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/2/3.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/2/4.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/2/5.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/2/6.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/2/7.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/2/8.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/2/9.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/2/10.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/2/11.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/2/12.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/2/13.jpg",
+    "https://imgx.mghcdn.com/mercenary-enrollment/2/14.jpg"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2c7453910cc0c3a02b053"
+  },
+  "storyId": {
+    "$oid": "69b2c7363910cc0c3a02b052"
+  },
+  "__v": 1,
+  "chapterNumber": 0,
+  "chapterTitle": "Chapter 0",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.765Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/regressor-instruction-manual/0/1.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/0/2.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/0/3.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/0/4.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/0/5.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/0/6.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c7a33910cc0c3a02b054"
+  },
+  "storyId": {
+    "$oid": "69b2c7363910cc0c3a02b052"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.765Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/regressor-instruction-manual/1/1.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/1/2.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/1/3.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/1/4.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/1/5.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/1/6.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/1/7.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/1/8.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/1/9.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/1/10.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/1/11.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/1/12.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/1/13.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/1/14.jpg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c8083910cc0c3a02b055"
+  },
+  "storyId": {
+    "$oid": "69b2c7363910cc0c3a02b052"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.766Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/regressor-instruction-manual/2/1.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/2/2.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/2/3.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/2/4.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/2/5.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/2/6.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/2/7.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/2/8.jpg",
+    "https://imgx.mghcdn.com/regressor-instruction-manual/2/9.jpg"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2c8a43910cc0c3a02b057"
+  },
+  "storyId": {
+    "$oid": "69b2c8413910cc0c3a02b056"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.767Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/1.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/2.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/3.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/4.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/5.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/6.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/7.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/8.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/9.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/10.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/11.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/12.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/13.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/14.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/15.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/16.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/1/17.jpg?x=ass"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c8f93910cc0c3a02b058"
+  },
+  "storyId": {
+    "$oid": "69b2c8413910cc0c3a02b056"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.767Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/2/1.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/2/2.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/2/3.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/2/4.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/2/5.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/2/6.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/2/7.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/2/8.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/2/9.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/2/10.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/2/11.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/2/12.jpg?x=ass"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c9463910cc0c3a02b059"
+  },
+  "storyId": {
+    "$oid": "69b2c8413910cc0c3a02b056"
+  },
+  "__v": 1,
+  "chapterNumber": 3,
+  "chapterTitle": "Chapter 3",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.769Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/3/1.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/3/2.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/3/3.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/3/4.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/3/5.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/3/6.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/3/7.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/3/8.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/3/9.jpg?x=ass",
+    "https://imgx.mghcdn.com/logging-10-000-years-into-the-future/3/10.jpg?x=ass"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2c96f3910cc0c3a02b05b"
+  },
+  "storyId": {
+    "$oid": "69b2c9593910cc0c3a02b05a"
+  },
+  "__v": 1,
+  "chapterNumber": 0,
+  "chapterTitle": "Chapter 0",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.769Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/0/1.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/0/2.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/0/3.webp"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2c9dc3910cc0c3a02b05c"
+  },
+  "storyId": {
+    "$oid": "69b2c9593910cc0c3a02b05a"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.769Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/1.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/2.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/3.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/4.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/5.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/6.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/7.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/8.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/9.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/10.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/11.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/12.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/13.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/14.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/15.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/16.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/1/17.webp"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2ca383910cc0c3a02b05d"
+  },
+  "storyId": {
+    "$oid": "69b2c9593910cc0c3a02b05a"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.771Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/1.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/2.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/3.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/4.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/5.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/6.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/7.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/8.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/9.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/10.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/11.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/12.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/13.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/14.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/15.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/16.webp",
+    "https://imgx.mghcdn.com/god-level-assassin-i-m-the-shadow/2/17.webp"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2ca9a3910cc0c3a02b05f"
+  },
+  "storyId": {
+    "$oid": "69b2ca4c3910cc0c3a02b05e"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.771Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/1/1.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/1/2.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/1/3.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/1/4.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/1/5.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/1/6.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/1/7.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/1/8.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/1/9.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/1/10.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/1/11.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/1/12.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/1/13.png"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2caf53910cc0c3a02b060"
+  },
+  "storyId": {
+    "$oid": "69b2ca4c3910cc0c3a02b05e"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.771Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/1.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/2.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/3.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/4.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/5.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/6.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/7.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/8.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/9.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/10.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/11.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/12.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/13.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/14.jpg",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/2/15.png"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2cb453910cc0c3a02b061"
+  },
+  "storyId": {
+    "$oid": "69b2ca4c3910cc0c3a02b05e"
+  },
+  "__v": 1,
+  "chapterNumber": 3,
+  "chapterTitle": "Chapter 3",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.772Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/3/1.webp",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/3/2.webp",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/3/3.webp",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/3/4.webp",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/3/5.webp",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/3/6.webp",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/3/7.webp",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/3/8.webp",
+    "https://imgx.mghcdn.com/after-the-school-belle-dumped-me-i-became-a-martial-arts-god/3/9.webp"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2cba03910cc0c3a02b063"
+  },
+  "storyId": {
+    "$oid": "69b2cb573910cc0c3a02b062"
+  },
+  "__v": 1,
+  "chapterNumber": 0,
+  "chapterTitle": "Chapter 0",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.773Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/0/1.jpeg",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/0/2.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/0/3.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/0/4.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/0/5.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/0/6.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/0/7.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/0/8.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/0/9.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/0/10.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/0/11.jpeg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2cc0a3910cc0c3a02b064"
+  },
+  "storyId": {
+    "$oid": "69b2cb573910cc0c3a02b062"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.773Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/1/1.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/1/2.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/1/3.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/1/4.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/1/5.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/1/6.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/1/7.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/1/8.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/1/9.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/1/10.webp"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2cc703910cc0c3a02b065"
+  },
+  "storyId": {
+    "$oid": "69b2cb573910cc0c3a02b062"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.775Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/2/1.jpeg",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/2/2.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/2/3.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/2/4.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/2/5.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/2/6.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/2/7.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/2/8.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/2/9.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/2/10.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/2/11.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/2/12.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/2/13.webp",
+    "https://imgx.mghcdn.com/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up/2/14.jpeg"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2ccac3910cc0c3a02b067"
+  },
+  "storyId": {
+    "$oid": "69b2cc873910cc0c3a02b066"
+  },
+  "__v": 1,
+  "chapterNumber": 0,
+  "chapterTitle": "Chapter 0",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.775Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/i-contracted-myself/0/1.webp",
+    "https://imgx.mghcdn.com/i-contracted-myself/0/2.webp",
+    "https://imgx.mghcdn.com/i-contracted-myself/0/3.webp",
+    "https://imgx.mghcdn.com/i-contracted-myself/0/4.webp",
+    "https://imgx.mghcdn.com/i-contracted-myself/0/5.webp",
+    "https://imgx.mghcdn.com/i-contracted-myself/0/6.webp",
+    "https://imgx.mghcdn.com/i-contracted-myself/0/7.webp"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2cd023910cc0c3a02b068"
+  },
+  "storyId": {
+    "$oid": "69b2cc873910cc0c3a02b066"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.775Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/i-contracted-myself/1/2.jpeg",
+    "https://imgx.mghcdn.com/i-contracted-myself/1/3.jpeg",
+    "https://imgx.mghcdn.com/i-contracted-myself/1/4.jpeg",
+    "https://imgx.mghcdn.com/i-contracted-myself/1/5.jpeg",
+    "https://imgx.mghcdn.com/i-contracted-myself/1/6.jpeg",
+    "https://imgx.mghcdn.com/i-contracted-myself/1/7.jpeg",
+    "https://imgx.mghcdn.com/i-contracted-myself/1/8.jpeg",
+    "https://imgx.mghcdn.com/i-contracted-myself/1/9.jpeg",
+    "https://imgx.mghcdn.com/i-contracted-myself/1/10.jpeg",
+    "https://imgx.mghcdn.com/i-contracted-myself/1/11.jpeg",
+    "https://imgx.mghcdn.com/i-contracted-myself/1/12.jpeg",
+    "https://imgx.mghcdn.com/i-contracted-myself/1/13.jpeg"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2cd623910cc0c3a02b069"
+  },
+  "storyId": {
+    "$oid": "69b2cc873910cc0c3a02b066"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.777Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/i-contracted-myself/2/1.jpg",
+    "https://imgx.mghcdn.com/i-contracted-myself/2/2.jpg",
+    "https://imgx.mghcdn.com/i-contracted-myself/2/3.jpg",
+    "https://imgx.mghcdn.com/i-contracted-myself/2/4.jpg",
+    "https://imgx.mghcdn.com/i-contracted-myself/2/5.jpg",
+    "https://imgx.mghcdn.com/i-contracted-myself/2/6.jpg",
+    "https://imgx.mghcdn.com/i-contracted-myself/2/7.jpg",
+    "https://imgx.mghcdn.com/i-contracted-myself/2/8.jpg",
+    "https://imgx.mghcdn.com/i-contracted-myself/2/9.jpg",
+    "https://imgx.mghcdn.com/i-contracted-myself/2/10.jpg",
+    "https://imgx.mghcdn.com/i-contracted-myself/2/11.jpg",
+    "https://imgx.mghcdn.com/i-contracted-myself/2/12.jpg",
+    "https://imgx.mghcdn.com/i-contracted-myself/2/13.jpg",
+    "https://imgx.mghcdn.com/i-contracted-myself/2/14.jpg"
+  ],
+  "isVip": true
+},
+{
+  "_id": {
+    "$oid": "69b2ce123910cc0c3a02b06b"
+  },
+  "storyId": {
+    "$oid": "69b2cd783910cc0c3a02b06a"
+  },
+  "__v": 1,
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter 1",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.777Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/1.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/2.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/3.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/4.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/5.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/6.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/7.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/8.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/9.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/10.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/11.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/12.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/13.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/14.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/15.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/16.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/17.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/18.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/19.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/20.jpg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/1/21.jpg?x=ass"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2ce943910cc0c3a02b06c"
+  },
+  "storyId": {
+    "$oid": "69b2cd783910cc0c3a02b06a"
+  },
+  "__v": 1,
+  "chapterNumber": 2,
+  "chapterTitle": "Chapter 2",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.777Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/1.jpeg?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/2.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/3.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/4.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/5.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/6.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/7.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/8.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/9.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/10.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/11.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/12.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/13.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/14.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/15.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/16.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/17.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/18.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/19.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/20.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/2/21.jpeg?x=ass"
+  ],
+  "isVip": false
+},
+{
+  "_id": {
+    "$oid": "69b2cf283910cc0c3a02b06d"
+  },
+  "storyId": {
+    "$oid": "69b2cd783910cc0c3a02b06a"
+  },
+  "__v": 1,
+  "chapterNumber": 3,
+  "chapterTitle": "Chapter 3",
+  "updatedAt": {
+    "$date": "2026-03-25T07:10:00.779Z"
+  },
+  "image": [
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/1.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/2.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/3.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/4.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/5.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/6.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/7.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/8.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/9.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/10.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/11.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/12.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/13.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/14.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/15.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/16.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/17.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/18.webp?x=ass",
+    "https://imgx.mghcdn.com/limit-breaking-genius-mage/3/19.webp?x=ass"
+  ],
+  "isVip": true
+}]

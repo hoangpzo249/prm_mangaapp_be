@@ -1,22 +1,31 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
-const historySchema = new mongoose.Schema({
-    userId: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'User',
-        required: true
+const storySchema = new mongoose.Schema({
+    title: String,
+    slug: {
+        type: String,
+        unique: true
     },
-    storyId: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Story',
-        required: true
+    author: String,
+    thumbnail: String,
+    chapterCount: Number,
+    description: {
+        type: String,
+        default: "Đang cập nhật..."
     },
-    lastChapterId: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Chapter'
+    views: {
+        type: Number,
+        default: 0
+    },
+    status: {
+        type: String,
+        enum: ["Ongoing", "Complete"],
+        default: "Ongoing"
     }
-}, {
-    timestamps: true
-});
+}, { timestamps: true });
 
-module.exports = mongoose.model('History', historySchema);
+// Indexing for faster queries
+storySchema.index({ slug: 1 }, { unique: true });
+storySchema.index({ views: -1 });
+
+module.exports = mongoose.model("Story", storySchema);

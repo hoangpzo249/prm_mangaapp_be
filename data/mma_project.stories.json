@@ -1,0 +1,323 @@
+[{
+  "_id": {
+    "$oid": "69b29f6f3910cc0c3a02b01a"
+  },
+  "slug": "swordmasters-youngest",
+  "__v": 0,
+  "author": "",
+  "chapterCount": 3,
+  "thumbnail": "https://thumb.mghcdn.com/mrc/swordmaster-s-youngest-son.jpg",
+  "title": "Swordmaster’s Youngest",
+  "updatedAt": {
+    "$date": "2026-03-23T08:03:51.863Z"
+  },
+  "description": "",
+  "status": "Ongoing",
+  "views": 173
+},
+{
+  "_id": {
+    "$oid": "69b2a1f23910cc0c3a02b01e"
+  },
+  "slug": "martial-peak",
+  "__v": 0,
+  "author": "Momo (莫默); Pikapi (噼咔噼)",
+  "chapterCount": 3,
+  "thumbnail": "https://thumb.mghcdn.com/rm/martial-peak.jpg",
+  "title": "Martial Peak",
+  "updatedAt": {
+    "$date": "2026-03-28T14:51:31.085Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 849
+},
+{
+  "_id": {
+    "$oid": "69b2bb4d3910cc0c3a02b026"
+  },
+  "__v": 0,
+  "author": "h-goon (현군); Chugong (추공); Gi So-Ryeong (기소령)",
+  "chapterCount": 3,
+  "slug": "solo-leveling",
+  "thumbnail": "https://thumb.mghcdn.com/mh/solo-leveling.jpg",
+  "title": "Solo Leveling",
+  "updatedAt": {
+    "$date": "2026-03-25T07:35:28.027Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 929
+},
+{
+  "_id": {
+    "$oid": "69b2bcac3910cc0c3a02b02a"
+  },
+  "__v": 0,
+  "author": "Kaneshiro Muneyuki",
+  "chapterCount": 3,
+  "slug": "blue-lock",
+  "thumbnail": "https://thumb.mghcdn.com/mro/blue-lock.jpg",
+  "title": "Blue Lock",
+  "updatedAt": {
+    "$date": "2026-03-22T15:04:47.715Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 732
+},
+{
+  "_id": {
+    "$oid": "69b2bf8d3910cc0c3a02b02e"
+  },
+  "__v": 0,
+  "author": "Fujimoto Tatsuki",
+  "chapterCount": 3,
+  "slug": "chainsaw-man",
+  "thumbnail": "https://thumb.mghcdn.com/mh/chainsaw-man.jpg",
+  "title": "Chainsaw Man",
+  "updatedAt": {
+    "$date": "2026-03-22T15:04:47.716Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 647
+},
+{
+  "_id": {
+    "$oid": "69b2c0233910cc0c3a02b032"
+  },
+  "__v": 0,
+  "author": "Mad Snail03-18-2021",
+  "chapterCount": 3,
+  "slug": "tales-of-demons-and-gods",
+  "thumbnail": "https://thumb.mghcdn.com/mh/tales-of-demons-and-gods.jpg",
+  "title": "Tales of Demons and Gods",
+  "updatedAt": {
+    "$date": "2026-03-22T15:04:47.718Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 893
+},
+{
+  "_id": {
+    "$oid": "69b2c1d83910cc0c3a02b03a"
+  },
+  "__v": 0,
+  "author": "Oda Eiichirou",
+  "chapterCount": 3,
+  "slug": "one-piece",
+  "thumbnail": "https://thumb.mghcdn.com/wbctr/one-piece.jpg",
+  "title": "One Piece",
+  "updatedAt": {
+    "$date": "2026-03-22T15:04:47.719Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 136
+},
+{
+  "_id": {
+    "$oid": "69b2c27d3910cc0c3a02b03e"
+  },
+  "__v": 0,
+  "author": "Wuer Manhua; Ye Xiao11-14-2025",
+  "chapterCount": 3,
+  "slug": "magic-emperor",
+  "thumbnail": "https://thumb.mghcdn.com/m4l/magic-emperor.jpg",
+  "title": "Magic Emperor",
+  "updatedAt": {
+    "$date": "2026-03-22T15:04:47.720Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 597
+},
+{
+  "_id": {
+    "$oid": "69b2c35d3910cc0c3a02b042"
+  },
+  "__v": 0,
+  "author": "TurtleMe",
+  "chapterCount": 3,
+  "slug": "the-beginning-after-the-end",
+  "thumbnail": "https://thumb.mghcdn.com/md/the-beginning-after-the-end.jpg",
+  "title": "The Beginning After The End",
+  "updatedAt": {
+    "$date": "2026-03-28T17:59:47.174Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 1015
+},
+{
+  "_id": {
+    "$oid": "69b2c4273910cc0c3a02b046"
+  },
+  "__v": 0,
+  "author": "SIU",
+  "chapterCount": 3,
+  "slug": "tower-of-god",
+  "thumbnail": "https://thumb.mghcdn.com/mn/tower-of-god.jpg",
+  "title": "Tower of God",
+  "updatedAt": {
+    "$date": "2026-03-22T15:04:47.722Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 136
+},
+{
+  "_id": {
+    "$oid": "69b2c4c73910cc0c3a02b04a"
+  },
+  "__v": 0,
+  "author": "Usonan (유소난)",
+  "chapterCount": 3,
+  "slug": "a-returner-s-magic-should-be-special",
+  "thumbnail": "https://thumb.mghcdn.com/md/a-returner-s-magic-should-be-special.png",
+  "title": "a Returner's Magic Should be Special",
+  "updatedAt": {
+    "$date": "2026-03-22T15:04:47.723Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 601
+},
+{
+  "_id": {
+    "$oid": "69b2c59d3910cc0c3a02b04e"
+  },
+  "__v": 0,
+  "author": "YC",
+  "chapterCount": 3,
+  "slug": "mercenary-enrollment",
+  "thumbnail": "https://thumb.mghcdn.com/md/mercenary-enrollment.jpg",
+  "title": "Mercenary Enrollment",
+  "updatedAt": {
+    "$date": "2026-03-22T15:04:47.723Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 59
+},
+{
+  "_id": {
+    "$oid": "69b2c7363910cc0c3a02b052"
+  },
+  "__v": 0,
+  "author": "Heulgsujeo; Domi  (도미)",
+  "chapterCount": 3,
+  "slug": "regressor-instruction-manual",
+  "thumbnail": "https://thumb.mghcdn.com/rem/regressor-instruction-manual.jpg",
+  "title": "Regressor Instruction Manual",
+  "updatedAt": {
+    "$date": "2026-03-22T15:04:47.724Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 909
+},
+{
+  "_id": {
+    "$oid": "69b2c8413910cc0c3a02b056"
+  },
+  "__v": 0,
+  "author": "Kuaikan Comics (常盘勇者)",
+  "chapterCount": 3,
+  "slug": "logging-10-000-years-into-the-future",
+  "thumbnail": "https://thumb.mghcdn.com/mrc/logging-10-000-years-into-the-future.png",
+  "title": "Logging 10,000 Years into the Future",
+  "updatedAt": {
+    "$date": "2026-03-22T15:04:47.724Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 176
+},
+{
+  "_id": {
+    "$oid": "69b2c9593910cc0c3a02b05a"
+  },
+  "__v": 0,
+  "author": "无烬海工作室; 番茄小说",
+  "chapterCount": 3,
+  "slug": "god-level-assassin-i-m-the-shadow",
+  "thumbnail": "https://thumb.mghcdn.com/mrc/god-level-assassin-i-m-the-shadow.webp",
+  "title": "God-level Assassin, I’m the Shadow",
+  "updatedAt": {
+    "$date": "2026-03-22T15:04:47.725Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 805
+},
+{
+  "_id": {
+    "$oid": "69b2ca4c3910cc0c3a02b05e"
+  },
+  "__v": 0,
+  "author": "WenYuan Culture (闻源文化)",
+  "chapterCount": 3,
+  "slug": "after-the-school-belle-dumped-me-i-became-a-martial-arts-god",
+  "thumbnail": "https://thumb.mghcdn.com/mrc/after-the-school-belle-dumped-me-i-became-a-martial-arts-god.jpg",
+  "title": "After the School Belle Dumped Me, I Became a Martial Arts God",
+  "updatedAt": {
+    "$date": "2026-03-22T15:04:47.726Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 588
+},
+{
+  "_id": {
+    "$oid": "69b2cb573910cc0c3a02b062"
+  },
+  "__v": 0,
+  "author": "Mugen Factory",
+  "chapterCount": 3,
+  "slug": "the-last-rebel-the-savior-android-changes-the-future-by-leveling-up",
+  "thumbnail": "https://thumb.mghcdn.com/mbd/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up.png",
+  "title": "The Last Rebel The Savior Android Changes The Future By Leveling Up",
+  "updatedAt": {
+    "$date": "2026-03-28T14:44:19.709Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 982
+},
+{
+  "_id": {
+    "$oid": "69b2cc873910cc0c3a02b066"
+  },
+  "__v": 0,
+  "author": "Meng Yue Culture (萌月文化)",
+  "chapterCount": 3,
+  "slug": "i-contracted-myself",
+  "thumbnail": "https://thumb.mghcdn.com/mbd/i-contracted-myself.png",
+  "title": "I Contracted Myself",
+  "updatedAt": {
+    "$date": "2026-03-22T15:04:47.727Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 767
+},
+{
+  "_id": {
+    "$oid": "69b2cd783910cc0c3a02b06a"
+  },
+  "__v": 0,
+  "author": "Icechoco (얼음초코); PlanK_ton (플랑K톤)",
+  "chapterCount": 3,
+  "slug": "limit-breaking-genius-mage",
+  "thumbnail": "https://thumb.mghcdn.com/mbd/limit-breaking-genius-mage.png",
+  "title": "Limit-Breaking Genius Mage",
+  "updatedAt": {
+    "$date": "2026-03-22T15:04:47.727Z"
+  },
+  "description": "Đang cập nhật...",
+  "status": "Ongoing",
+  "views": 253
+}]

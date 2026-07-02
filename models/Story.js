@@ -24,8 +24,6 @@ const storySchema = new mongoose.Schema({
     }
 }, { timestamps: true });
 
-// Indexing for faster queries
-storySchema.index({ slug: 1 }, { unique: true });
 storySchema.index({ views: -1 });
 
 module.exports = mongoose.model("Story", storySchema);

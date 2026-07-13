@@ -31,11 +31,6 @@ const registerRules = [
         optional: true,
         check: (v) => typeof v === 'string' && v.trim().length <= 100,
         message: 'Họ tên tối đa 100 ký tự'
-    },
-    {
-        field: 'otp',
-        check: (v) => isNonEmptyString(v) && v.trim().length === 6,
-        message: 'OTP là bắt buộc và phải có 6 ký tự'
     }
 ];
 

@@ -42,18 +42,12 @@ exports.sendRegisterOtp = async (email) => {
 };
 
 /**
- * Đăng ký tài khoản mới + tạo Wallet (Yêu cầu có OTP)
+ * Đăng ký tài khoản mới + tạo Wallet
  */
-exports.register = async ({ username, email, password, fullName, otp }) => {
+exports.register = async ({ username, email, password, fullName }) => {
     const normalizedUsername = username.trim().toLowerCase();
     const normalizedEmail = email.trim().toLowerCase();
     const normalizedFullName = fullName ? fullName.trim() : undefined;
-
-    // Kiểm tra OTP
-    const otpRecord = await Otp.findOne({ email: normalizedEmail, otp });
-    if (!otpRecord) {
-        throw new AppError('Mã OTP không hợp lệ hoặc đã hết hạn', 400);
-    }
 
     // Kiểm tra username đã tồn tại
     const existing = await userRepo.findByUsername(normalizedUsername);
@@ -81,9 +75,6 @@ exports.register = async ({ username, email, password, fullName, otp }) => {
 
     // Tạo ví cho user mới
     await walletRepo.create(user._id);
-
-    // Xoá OTP sau khi dùng
-    await Otp.deleteOne({ _id: otpRecord._id });
 
     return { message: 'Đăng ký thành công' };
 };

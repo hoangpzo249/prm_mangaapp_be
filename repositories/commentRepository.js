@@ -7,7 +7,7 @@ const Comment = require('../models/Comment');
 /** Lấy comments của truyện, phân trang, populate user */
 exports.findByStoryId = (storyId, page = 1, limit = 20) => {
     const skip = (page - 1) * limit;
-    return Comment.find({ storyId, parentId: null }) // Chỉ lấy comment gốc
+    return Comment.find({ storyId, parentId: null, isHidden: { $ne: true } }) // Chỉ lấy comment gốc không ẩn
         .populate('userId', 'username fullName')
         .sort({ createdAt: -1 })
         .skip(skip)
@@ -17,7 +17,7 @@ exports.findByStoryId = (storyId, page = 1, limit = 20) => {
 
 /** Lấy replies của một comment */
 exports.findReplies = (parentId) => {
-    return Comment.find({ parentId })
+    return Comment.find({ parentId, isHidden: { $ne: true } }) // Chỉ lấy reply không ẩn
         .populate('userId', 'username fullName')
         .sort({ createdAt: 1 })
         .lean();

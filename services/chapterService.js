@@ -27,7 +27,14 @@ exports.getChapterContent = async (chapterId, userId) => {
             throw new AppError('Cần đăng nhập để đọc chapter VIP', 401);
         }
 
-        const user = await userRepo.findByIdWithPassword(userId);
+        let user = await userRepo.findByIdWithPassword(userId);
+        
+        // Lazy load: Check và xoá VIP nếu hết hạn
+        const userService = require('./userService');
+        if (user) {
+            user = await userService.checkAndClearExpiredVip(user);
+        }
+
         if (!user || !user.isVip) {
             throw new AppError('Bạn cần là thành viên VIP để đọc chapter này', 403);
         }

@@ -5,7 +5,6 @@ const mongoose = require('mongoose');
 // ============================================================
 // - Lưu vết chi tiết mỗi lần user MUA gói VIP
 // - Mỗi record = 1 lần mua gói, có startDate/endDate riêng
-// - status ACTIVE → EXPIRED khi hết hạn (có thể dùng cron job)
 // - User.vipUntil = endDate xa nhất trong các gói ACTIVE
 // ============================================================
 

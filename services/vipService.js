@@ -84,3 +84,25 @@ exports.buyVipPackage = async (userId, packageId) => {
 exports.getMySubscriptions = async (userId) => {
     return userSubRepo.findByUserId(userId);
 };
+
+// --- ADMIN METHODS ---
+
+exports.getAllPackagesAdmin = async () => {
+    return vipPackageRepo.findAll();
+};
+
+exports.createPackage = async (data) => {
+    return vipPackageRepo.create(data);
+};
+
+exports.updatePackage = async (id, data) => {
+    const pkg = await vipPackageRepo.update(id, data);
+    if (!pkg) throw new AppError('Gói VIP không tồn tại', 404);
+    return pkg;
+};
+
+exports.deletePackage = async (id) => {
+    const pkg = await vipPackageRepo.delete(id);
+    if (!pkg) throw new AppError('Gói VIP không tồn tại', 404);
+    return { message: 'Xóa gói VIP thành công' };
+};

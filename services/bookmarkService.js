@@ -40,9 +40,9 @@ exports.toggleBookmark = async (userId, storyId) => {
 
     if (existing) {
         await bookmarkRepo.delete(existing._id);
-        return { isBookmarked: false, message: 'Đã xóa khỏi tủ truyện' };
+        return { isBookmarked: false, message: 'Removed from your library' };
     } else {
         await bookmarkRepo.create(userId, storyId);
-        return { isBookmarked: true, message: 'Đã thêm vào tủ truyện' };
+        return { isBookmarked: true, message: 'Added to your library' };
     }
 };

@@ -30,3 +30,40 @@ exports.getMySubscriptions = async (req, res, next) => {
         next(error);
     }
 };
+
+// --- ADMIN METHODS ---
+exports.getAllPackagesAdmin = async (req, res, next) => {
+    try {
+        const packages = await vipService.getAllPackagesAdmin();
+        res.json(packages);
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.createPackage = async (req, res, next) => {
+    try {
+        const result = await vipService.createPackage(req.body);
+        res.status(201).json(result);
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.updatePackage = async (req, res, next) => {
+    try {
+        const result = await vipService.updatePackage(req.params.id, req.body);
+        res.json(result);
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.deletePackage = async (req, res, next) => {
+    try {
+        const result = await vipService.deletePackage(req.params.id);
+        res.json(result);
+    } catch (error) {
+        next(error);
+    }
+};

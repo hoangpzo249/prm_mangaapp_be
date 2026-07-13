@@ -67,14 +67,12 @@ const transactionSchema = new mongoose.Schema({
 
     // Mã giao dịch từ đối tác cổng thanh toán (MoMo, ZaloPay...)
     gatewayTransactionId: {
-        type: String,
-        default: null
+        type: String
     },
 
     // Mã đơn hàng tự sinh của hệ thống
     appTransactionId: {
-        type: String,
-        default: null
+        type: String
     },
 
     // Ghi chú / mô tả giao dịch

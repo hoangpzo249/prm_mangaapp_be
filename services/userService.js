@@ -7,10 +7,23 @@ const AppError = require('../utils/AppError');
 // User Service — CRUD User (chủ yếu Admin)
 // ============================================================
 
+// Helper kiểm tra và clear VIP nếu hết hạn (Lazy loading)
+exports.checkAndClearExpiredVip = async (user) => {
+    if (!user) return user;
+    if (user.vipUntil && user.vipUntil < new Date()) {
+        user.vipUntil = null;
+        await userRepo.update(user._id, { vipUntil: null });
+    }
+    return user;
+};
+
 /** Lấy thông tin cá nhân */
 exports.getMe = async (userId) => {
-    const user = await userRepo.findById(userId);
+    let user = await userRepo.findById(userId);
     if (!user) throw new AppError('User không tồn tại', 404);
+
+    // Lazy load: Check và xoá VIP nếu hết hạn
+    user = await exports.checkAndClearExpiredVip(user);
 
     const wallet = await walletRepo.findByUserId(userId);
 

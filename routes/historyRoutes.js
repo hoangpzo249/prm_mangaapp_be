@@ -8,6 +8,7 @@ const { saveHistoryRules } = require('../middlewares/validators/historyValidator
 router.use(auth);
 
 router.get('/', historyController.getHistory);
+router.get('/story/:storyId', historyController.getHistoryByStory);
 router.post('/', validate(saveHistoryRules), historyController.saveHistory);
 router.delete('/:storyId', historyController.deleteHistory);
 

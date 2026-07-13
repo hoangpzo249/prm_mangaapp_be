@@ -84,3 +84,21 @@ exports.deleteStory = async (req, res, next) => {
         next(error);
     }
 };
+
+exports.restoreStory = async (req, res, next) => {
+    try {
+        const result = await storyService.restoreStory(req.params.id);
+        res.json(result);
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.getHiddenStories = async (req, res, next) => {
+    try {
+        const stories = await storyService.getHiddenStories();
+        res.json(stories);
+    } catch (error) {
+        next(error);
+    }
+};

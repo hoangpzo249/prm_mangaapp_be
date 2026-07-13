@@ -62,9 +62,25 @@ exports.updateChapter = async (id, data) => {
     return chapter;
 };
 
-/** Xóa chapter — dùng findOneAndDelete để trigger hook */
+/** Xóa chapter (soft delete) — ẩn chapter và giảm chapterCount của story */
 exports.deleteChapter = async (id) => {
-    const chapter = await chapterRepo.delete(id);
-    if (!chapter) throw new AppError('Chapter không tồn tại', 404);
-    return { message: 'Xóa chapter thành công' };
+    const chapter = await chapterRepo.softDelete(id);
+    if (!chapter) throw new AppError('Chapter không tồn tại hoặc đã bị ẩn', 404);
+
+    await storyRepo.decrementChapterCount(chapter.storyId);
+    return { message: 'Đã ẩn chapter thành công' };
+};
+
+/** Admin: Danh sách chapter đã ẩn của truyện */
+exports.getHiddenChaptersByStory = async (storyId) => {
+    return chapterRepo.findHiddenByStoryId(storyId);
+};
+
+/** Khôi phục chapter đã ẩn */
+exports.restoreChapter = async (id) => {
+    const chapter = await chapterRepo.restore(id);
+    if (!chapter) throw new AppError('Chapter không tồn tại hoặc chưa bị ẩn', 404);
+
+    await storyRepo.incrementChapterCount(chapter.storyId);
+    return { message: 'Khôi phục chapter thành công' };
 };

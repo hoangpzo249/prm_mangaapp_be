@@ -50,3 +50,21 @@ exports.deleteChapter = async (req, res, next) => {
         next(error);
     }
 };
+
+exports.restoreChapter = async (req, res, next) => {
+    try {
+        const result = await chapterService.restoreChapter(req.params.id);
+        res.json(result);
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.getHiddenChaptersByStory = async (req, res, next) => {
+    try {
+        const chapters = await chapterService.getHiddenChaptersByStory(req.params.storyId);
+        res.json(chapters);
+    } catch (error) {
+        next(error);
+    }
+};

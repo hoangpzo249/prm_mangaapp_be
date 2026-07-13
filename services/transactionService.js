@@ -6,9 +6,6 @@ const mongoose = require('mongoose');
 const Transaction = require('../models/Transaction');
 const Wallet = require('../models/Wallet');
 
-// ============================================================
-// Transaction Service — Giao dịch nạp xu
-// ============================================================
 
 /** Lấy lịch sử giao dịch */
 exports.getTransactions = async (userId, page, limit) => {

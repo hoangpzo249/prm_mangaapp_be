@@ -1,5 +1,3 @@
-
-
 const isNonEmptyString = (v) => typeof v === 'string' && v.trim().length > 0;
 
 
@@ -33,6 +31,20 @@ const registerRules = [
         optional: true,
         check: (v) => typeof v === 'string' && v.trim().length <= 100,
         message: 'Họ tên tối đa 100 ký tự'
+    },
+    {
+        field: 'otp',
+        check: (v) => isNonEmptyString(v) && v.trim().length === 6,
+        message: 'OTP là bắt buộc và phải có 6 ký tự'
+    }
+];
+
+/** Rules cho POST /api/auth/register/send-otp */
+const sendRegisterOtpRules = [
+    {
+        field: 'email',
+        check: (v) => isNonEmptyString(v) && v.trim().length <= 254 && EMAIL_REGEX.test(v.trim()),
+        message: 'Email là bắt buộc và phải đúng định dạng'
     }
 ];
 
@@ -50,5 +62,46 @@ const loginRules = [
     }
 ];
 
-module.exports = { registerRules, loginRules };
- 
+/** Rules cho POST /api/auth/forgot-password */
+const forgotPasswordRules = [
+    {
+        field: 'email',
+        check: (v) => isNonEmptyString(v) && v.trim().length <= 254 && EMAIL_REGEX.test(v.trim()),
+        message: 'Email là bắt buộc và phải đúng định dạng'
+    }
+];
+
+/** Rules cho POST /api/auth/reset-password */
+const resetPasswordRules = [
+    {
+        field: 'email',
+        check: (v) => isNonEmptyString(v) && v.trim().length <= 254 && EMAIL_REGEX.test(v.trim()),
+        message: 'Email là bắt buộc và phải đúng định dạng'
+    },
+    {
+        field: 'otp',
+        check: (v) => isNonEmptyString(v) && v.trim().length === 6,
+        message: 'OTP là bắt buộc và phải có 6 ký tự'
+    },
+    {
+        field: 'newPassword',
+        check: (v) => isNonEmptyString(v) && PASSWORD_REGEX.test(v),
+        message: 'Password mới tối thiểu 8 ký tự, phải có chữ hoa, chữ thường, số và ký tự đặc biệt'
+    }
+];
+
+/** Rules cho POST /api/auth/change-password */
+const changePasswordRules = [
+    {
+        field: 'oldPassword',
+        check: (v) => isNonEmptyString(v) && v.length <= 72,
+        message: 'Mật khẩu cũ là bắt buộc'
+    },
+    {
+        field: 'newPassword',
+        check: (v) => isNonEmptyString(v) && PASSWORD_REGEX.test(v),
+        message: 'Password mới tối thiểu 8 ký tự, phải có chữ hoa, chữ thường, số và ký tự đặc biệt'
+    }
+];
+
+module.exports = { registerRules, sendRegisterOtpRules, loginRules, forgotPasswordRules, resetPasswordRules, changePasswordRules };

@@ -1,11 +1,7 @@
 const transactionRepo = require('../repositories/transactionRepository');
 const walletRepo = require('../repositories/walletRepository');
 const AppError = require('../utils/AppError');
-const { v4: uuidv4 } = require('uuid');
 
-// ============================================================
-// Transaction Service — Giao dịch nạp xu
-// ============================================================
 
 /** Lấy lịch sử giao dịch */
 exports.getTransactions = async (userId, page, limit) => {

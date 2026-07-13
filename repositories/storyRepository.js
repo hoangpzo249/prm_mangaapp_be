@@ -21,8 +21,42 @@ exports.update = (id, data) => {
     return Story.findByIdAndUpdate(id, data, { new: true, runValidators: true });
 };
 
-exports.delete = (id) => {
-    return Story.findByIdAndDelete(id);
+/** Soft delete — set isHidden = true */
+exports.softDelete = (id) => {
+    return Story.findOneAndUpdate(
+        { _id: id, isHidden: { $ne: true } },
+        { isHidden: true },
+        { new: true }
+    );
+};
+
+/** Khôi phục truyện đã ẩn */
+exports.restore = (id) => {
+    return Story.findOneAndUpdate(
+        { _id: id, isHidden: true },
+        { isHidden: false },
+        { new: true }
+    );
+};
+
+/** Bao gồm cả story đã ẩn — dùng cho admin restore */
+exports.findByIdIncludeHidden = (id) => {
+    return Story.findById(id);
+};
+
+/** Danh sách truyện đã ẩn — cho admin xem/khôi phục */
+exports.findHidden = () => {
+    return Story.find({ isHidden: true })
+        .sort({ updatedAt: -1 })
+        .lean();
+};
+
+exports.incrementChapterCount = (id) => {
+    return Story.findByIdAndUpdate(id, { $inc: { chapterCount: 1 } });
+};
+
+exports.decrementChapterCount = (id) => {
+    return Story.findByIdAndUpdate(id, { $inc: { chapterCount: -1 } });
 };
 
 /** Tăng lượt xem + trả về story mới */

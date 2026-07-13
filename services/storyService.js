@@ -88,10 +88,30 @@ exports.updateStory = async (id, data) => {
     return story;
 };
 
-/** Xóa truyện + chapters (Admin) */
+/** Xóa truyện (Admin) — soft delete + ẩn cascade toàn bộ chapter */
 exports.deleteStory = async (id) => {
-    await chapterRepo.deleteByStoryId(id);
-    const story = await storyRepo.delete(id);
-    if (!story) throw new AppError('Truyện không tồn tại', 404);
-    return { message: 'Xóa truyện thành công' };
+    const story = await storyRepo.softDelete(id);
+    if (!story) throw new AppError('Truyện không tồn tại hoặc đã bị ẩn', 404);
+
+    await chapterRepo.hideByStoryId(id);
+    await storyRepo.update(id, { chapterCount: 0 });
+    return { message: 'Đã ẩn truyện thành công' };
+};
+
+/** Admin: Danh sách truyện đã ẩn */
+exports.getHiddenStories = async () => {
+    return storyRepo.findHidden();
+};
+
+/** Khôi phục truyện đã ẩn (Admin) — bỏ ẩn cascade toàn bộ chapter */
+exports.restoreStory = async (id) => {
+    const story = await storyRepo.restore(id);
+    if (!story) throw new AppError('Truyện không tồn tại hoặc chưa bị ẩn', 404);
+
+    await chapterRepo.unhideByStoryId(id);
+
+    const visibleCount = await chapterRepo.countVisibleByStoryId(id);
+    await storyRepo.update(id, { chapterCount: visibleCount });
+
+    return { message: 'Khôi phục truyện thành công' };
 };

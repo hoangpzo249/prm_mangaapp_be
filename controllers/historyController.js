@@ -13,6 +13,18 @@ exports.getHistory = async (req, res, next) => {
     }
 };
 
+exports.getHistoryByStory = async (req, res, next) => {
+    try {
+        const item = await historyService.getHistoryForStory(
+            req.user.id,
+            req.params.storyId
+        );
+        res.json(item);
+    } catch (error) {
+        next(error);
+    }
+};
+
 exports.saveHistory = async (req, res, next) => {
     try {
         const result = await historyService.saveHistory(

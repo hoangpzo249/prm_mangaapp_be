@@ -15,7 +15,7 @@ const Otp = require('../models/Otp');
  */
 exports.sendRegisterOtp = async (email) => {
     const normalizedEmail = email.trim().toLowerCase();
-    
+
     // Kiểm tra email đã tồn tại chưa
     const existingEmail = await userRepo.findByEmail(normalizedEmail);
     if (existingEmail) {
@@ -36,7 +36,7 @@ exports.sendRegisterOtp = async (email) => {
     const subject = 'Mã xác nhận đăng ký tài khoản';
     const text = `Mã OTP của bạn là: ${otp}. Mã này sẽ hết hạn sau 10 phút.`;
     const html = `<p>Mã OTP đăng ký của bạn là: <b>${otp}</b></p><p>Mã này sẽ hết hạn sau 10 phút.</p>`;
-    
+
     await sendEmail(normalizedEmail, subject, text, html);
     return { message: 'Mã OTP đã được gửi đến email của bạn' };
 };

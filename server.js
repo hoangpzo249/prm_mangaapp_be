@@ -18,6 +18,7 @@ connectDB();
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/users', require('./routes/userRoutes'));
 app.use('/api/stories', require('./routes/storyRoutes'));
+app.use('/api/genres', require('./routes/genreRoutes'));
 app.use('/api/chapters', require('./routes/chapterRoutes'));
 app.use('/api/history', require('./routes/historyRoutes'));
 app.use('/api/bookmarks', require('./routes/bookmarkRoutes'));

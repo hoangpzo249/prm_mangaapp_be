@@ -67,3 +67,26 @@ exports.adminDeleteUser = async (req, res, next) => {
         next(error);
     }
 };
+
+exports.adminResetPassword = async (req, res, next) => {
+    try {
+        const result = await userService.adminResetPassword(req.params.id, req.body);
+        res.json(result);
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.adminCreateUser = async (req, res, next) => {
+    try {
+        const result = await userService.adminCreateUser(req.body);
+
+        return res.status(201).json({
+            success: true,
+            message: 'Tạo người dùng thành công',
+            data: result,
+        });
+    } catch (error) {
+        next(error);
+    }
+};

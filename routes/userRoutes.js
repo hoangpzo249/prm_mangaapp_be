@@ -16,5 +16,6 @@ router.get('/', auth, authorize('admin'), userController.getAllUsers);
 router.post('/', auth, authorize('admin'), validate(adminCreateUserRules), userController.adminCreateUser);
 router.put('/:id', auth, authorize('admin'), validate(adminUpdateUserRules), userController.adminUpdateUser);
 router.delete('/:id', auth, authorize('admin'), userController.adminDeleteUser);
+router.put('/:id/reset-password', auth, authorize('admin'), userController.adminResetPassword);
 
 module.exports = router;

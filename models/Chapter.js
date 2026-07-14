@@ -3,8 +3,9 @@ const mongoose = require('mongoose');
 // ============================================================
 // Chapter Model — Các chapter (tập) của truyện
 // ============================================================
-// - post('save') → tự động tăng Story.chapterCount
-// - post('findOneAndDelete') → tự động giảm Story.chapterCount
+// - post('save') → tự động tăng Story.chapterCount khi tạo mới
+// - Xóa chapter là SOFT DELETE (set isHidden=true) → Story.chapterCount
+//   được điều chỉnh thủ công tại chapterService
 // - isVip = true → chỉ user có VIP mới xem được
 // ============================================================
 
@@ -36,6 +37,20 @@ const chapterSchema = new mongoose.Schema({
     isVip: {
         type: Boolean,
         default: false
+    },
+
+    // Trạng thái ẩn — dùng cho soft delete (admin xoá) hoặc ẩn do report
+    isHidden: {
+        type: Boolean,
+        default: false
+    },
+
+    // Đánh dấu chapter bị ẩn do cascade từ Story bị ẩn
+    // → Khi restore story, chỉ bỏ ẩn những chapter có cờ này = true
+    //   để không vô tình khôi phục chapter bị admin ẩn thủ công trước đó
+    hiddenByStory: {
+        type: Boolean,
+        default: false
     }
 
 }, {
@@ -60,16 +75,6 @@ chapterSchema.post('save', async function (doc) {
         const Story = mongoose.model('Story');
         await Story.findByIdAndUpdate(doc.storyId, {
             $inc: { chapterCount: 1 }
-        });
-    }
-});
-
-// Sau khi xóa chapter → giảm chapterCount trong Story
-chapterSchema.post('findOneAndDelete', async function (doc) {
-    if (doc) {
-        const Story = mongoose.model('Story');
-        await Story.findByIdAndUpdate(doc.storyId, {
-            $inc: { chapterCount: -1 }
         });
     }
 });

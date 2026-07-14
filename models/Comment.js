@@ -47,6 +47,12 @@ const commentSchema = new mongoose.Schema({
     likesCount: {
         type: Number,
         default: 0
+    },
+
+    // Trạng thái ẩn do bị report
+    isHidden: {
+        type: Boolean,
+        default: false
     }
 
 }, {

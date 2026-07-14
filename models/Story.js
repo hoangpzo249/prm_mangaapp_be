@@ -61,6 +61,12 @@ const storySchema = new mongoose.Schema({
         type: String,
         enum: ['Ongoing', 'Complete'],
         default: 'Ongoing'
+    },
+
+    // Trạng thái ẩn do bị report
+    isHidden: {
+        type: Boolean,
+        default: false
     }
 
 }, {

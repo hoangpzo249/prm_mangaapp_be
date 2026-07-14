@@ -15,8 +15,10 @@ router.get('/search', storyController.searchStories);
 router.get('/:id', storyController.getStoryById);
 
 // Admin
+router.get('/admin/hidden', auth, authorize('admin'), storyController.getHiddenStories);
 router.post('/', auth, authorize('admin'), validate(createStoryRules), storyController.createStory);
 router.put('/:id', auth, authorize('admin'), validate(updateStoryRules), storyController.updateStory);
 router.delete('/:id', auth, authorize('admin'), storyController.deleteStory);
+router.post('/:id/restore', auth, authorize('admin'), storyController.restoreStory);
 
 module.exports = router;

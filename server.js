@@ -26,6 +26,8 @@ app.use('/api/ratings', require('./routes/ratingRoutes'));
 app.use('/api/notifications', require('./routes/notificationRoutes'));
 app.use('/api/vip', require('./routes/vipRoutes'));
 app.use('/api/transactions', require('./routes/transactionRoutes'));
+app.use('/api/reports', require('./routes/reportRoutes'));
+app.use('/api/stats', require('./routes/statsRoutes'));
 
 // Health check
 app.get('/', (req, res) => {
@@ -44,8 +46,15 @@ app.use((err, req, res, next) => {
 
     // Xử lý các lỗi MongoDB thường gặp
     if (err.name === 'ValidationError') {
-        return res.status(400).json({ message: 'Lỗi validate dữ liệu DB', details: err.message });
+        console.error(err);
+
+        return res.status(400).json({
+            message: 'Lỗi validate dữ liệu ',
+            details: err.message,
+            errors: err.errors,
+        });
     }
+
     if (err.code === 11000) {
         return res.status(400).json({ message: 'Dữ liệu bị trùng lặp (Unique constraint)' });
     }

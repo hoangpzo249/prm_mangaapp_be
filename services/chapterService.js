@@ -1,6 +1,7 @@
 const chapterRepo = require('../repositories/chapterRepository');
 const storyRepo = require('../repositories/storyRepository');
 const userRepo = require('../repositories/userRepository');
+const refundService = require('./refundService');
 const AppError = require('../utils/AppError');
 
 // ============================================================
@@ -68,7 +69,19 @@ exports.deleteChapter = async (id) => {
     if (!chapter) throw new AppError('Chapter không tồn tại hoặc đã bị ẩn', 404);
 
     await storyRepo.decrementChapterCount(chapter.storyId);
-    return { message: 'Đã ẩn chapter thành công' };
+
+    // Chapter VIP bị ẩn → bồi thường xu cho user đã từng đọc & từng mua VIP.
+    // Chapter thường bị ẩn không cần refund.
+    let refund = { refundedUsers: 0, coinsPerUser: 0, totalCoins: 0 };
+    if (chapter.isVip) {
+        refund = await refundService.refundForHiddenVipChapters({
+            storyId: chapter.storyId,
+            vipChapterCount: 1,
+            description: `Bồi thường ẩn Chapter ${chapter.chapterNumber} (VIP)`
+        });
+    }
+
+    return { message: 'Đã ẩn chapter thành công', refund };
 };
 
 /** Admin: Danh sách chapter đã ẩn của truyện */

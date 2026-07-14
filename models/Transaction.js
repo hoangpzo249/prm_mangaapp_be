@@ -26,9 +26,11 @@ const transactionSchema = new mongoose.Schema({
     },
 
     // Loại giao dịch
+    // - REFUND_CHAPTER_HIDE: bồi thường xu khi admin ẩn chapter VIP / truyện
+    //   chứa VIP mà user đã từng đọc
     type: {
         type: String,
-        enum: ['DEPOSIT', 'BUY_VIP'],
+        enum: ['DEPOSIT', 'BUY_VIP', 'REFUND_CHAPTER_HIDE'],
         required: [true, 'Loại giao dịch là bắt buộc']
     },
 

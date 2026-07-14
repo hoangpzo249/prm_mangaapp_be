@@ -69,3 +69,11 @@ exports.upsert = async (userId, storyId, lastChapterId) => {
 exports.delete = (userId, storyId) => {
     return History.findOneAndDelete({ userId, storyId });
 };
+
+/**
+ * Lấy danh sách userId (distinct) đã có history cho một truyện.
+ * Dùng cho refund flow — xác định "ai đã đọc truyện này".
+ */
+exports.findDistinctUserIdsByStory = (storyId) => {
+    return History.distinct('userId', { storyId });
+};

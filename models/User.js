@@ -56,6 +56,24 @@ const userSchema = new mongoose.Schema({
     isBanned: {
         type: Boolean,
         default: false
+    },
+
+    // Ảnh đại diện
+    avatar: {
+        type: String,
+        default: null
+    },
+
+    // OTP reset password
+    resetPasswordOtp: {
+        type: String,
+        default: null
+    },
+
+    // Thời gian hết hạn của OTP
+    resetPasswordExpires: {
+        type: Date,
+        default: null
     }
 
 }, {

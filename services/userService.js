@@ -33,6 +33,25 @@ exports.getMe = async (userId) => {
     };
 };
 
+/** User tự cập nhật thông tin profile */
+exports.updateProfile = async (userId, data) => {
+    const allowedFields = {};
+    if (data.fullName !== undefined) allowedFields.fullName = data.fullName;
+
+    const user = await userRepo.update(userId, allowedFields);
+    if (!user) throw new AppError('User không tồn tại', 404);
+
+    return user;
+};
+
+/** User cập nhật avatar */
+exports.uploadAvatar = async (userId, avatarUrl) => {
+    const user = await userRepo.update(userId, { avatar: avatarUrl });
+    if (!user) throw new AppError('User không tồn tại', 404);
+
+    return user;
+};
+
 /** Admin: Lấy danh sách tất cả users */
 exports.getAllUsers = async () => {
     return userRepo.findAll();

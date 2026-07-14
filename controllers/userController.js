@@ -1,13 +1,32 @@
 const userService = require('../services/userService');
 
-// ============================================================
-// User Controller — Quản lý user (getMe + Admin CRUD)
-// ============================================================
 
 exports.getMe = async (req, res, next) => {
     try {
         const user = await userService.getMe(req.user.id);
         res.json(user);
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.updateProfile = async (req, res, next) => {
+    try {
+        const user = await userService.updateProfile(req.user.id, req.body);
+        res.json({ message: 'Cập nhật profile thành công', user });
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.uploadAvatar = async (req, res, next) => {
+    try {
+        if (!req.file) {
+            return res.status(400).json({ message: 'Vui lòng chọn một file ảnh' });
+        }
+        // req.file.path là URL của ảnh trên Cloudinary do multer-storage-cloudinary trả về
+        const user = await userService.uploadAvatar(req.user.id, req.file.path);
+        res.json({ message: 'Cập nhật avatar thành công', user });
     } catch (error) {
         next(error);
     }

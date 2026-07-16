@@ -35,6 +35,12 @@ const updateProfileRules = [
         optional: true,
         check: (v) => typeof v === 'string' && v.trim().length <= 100,
         message: 'Họ tên tối đa 100 ký tự'
+    },
+    {
+        field: 'avatar',
+        optional: true,
+        check: (v) => typeof v === 'string',
+        message: 'Avatar phải là một chuỗi URL'
     }
 ];
 

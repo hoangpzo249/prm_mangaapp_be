@@ -19,19 +19,6 @@ exports.updateProfile = async (req, res, next) => {
     }
 };
 
-exports.uploadAvatar = async (req, res, next) => {
-    try {
-        if (!req.file) {
-            return res.status(400).json({ message: 'Vui lòng chọn một file ảnh' });
-        }
-        // req.file.path là URL của ảnh trên Cloudinary do multer-storage-cloudinary trả về
-        const user = await userService.uploadAvatar(req.user.id, req.file.path);
-        res.json({ message: 'Cập nhật avatar thành công', user });
-    } catch (error) {
-        next(error);
-    }
-};
-
 exports.getAllUsers = async (req, res, next) => {
     try {
         const users = await userService.getAllUsers();

@@ -56,7 +56,7 @@ exports.createChapter = async (data) => {
     return chapterRepo.create(data);
 };
 
-/** Cập nhật chapter (Admin) */
+/** Cập nhật chapter */
 exports.updateChapter = async (id, data) => {
     const chapter = await chapterRepo.update(id, data);
     if (!chapter) throw new AppError('Chapter không tồn tại', 404);

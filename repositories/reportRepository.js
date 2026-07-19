@@ -7,24 +7,41 @@ exports.create = (data) => {
     return report.save();
 };
 
-exports.findAll = async () => {
-    const reports = await Report.find()
-        .populate('reporterId', 'username fullName')
-        .sort({ createdAt: -1 })
-        .lean();
+/**
+ * findAll — với filter theo status (optional) và pagination
+ */
+exports.findAll = async ({ status, page = 1, limit = 20 } = {}) => {
+    const query = {};
+    if (status && ['pending', 'resolved', 'dismissed'].includes(status)) {
+        query.status = status;
+    }
+
+    const skip = (page - 1) * limit;
+
+    const [reports, total] = await Promise.all([
+        Report.find(query)
+            .populate('reporterId', 'username fullName')
+            .sort({ createdAt: -1 })
+            .skip(skip)
+            .limit(limit)
+            .lean(),
+        Report.countDocuments(query),
+    ]);
 
     // Dynamically populate targetId based on targetType
-    return Promise.all(reports.map(async (report) => {
+    const enriched = await Promise.all(reports.map(async (report) => {
         let target = null;
         if (report.targetType === 'comment') {
             target = await Comment.findById(report.targetId)
                 .populate('userId', 'username fullName')
                 .lean();
         } else if (report.targetType === 'story') {
-            target = await Story.findById(report.targetId).lean();
+            target = await Story.findById(report.targetId, 'title thumbnail slug').lean();
         }
         return { ...report, target };
     }));
+
+    return { reports: enriched, total, page, limit };
 };
 
 exports.findById = async (id) => {
@@ -40,11 +57,15 @@ exports.findById = async (id) => {
             .populate('userId', 'username fullName')
             .lean();
     } else if (report.targetType === 'story') {
-        target = await Story.findById(report.targetId).lean();
+        target = await Story.findById(report.targetId, 'title thumbnail slug').lean();
     }
     return { ...report, target };
 };
 
-exports.updateStatus = (id, status) => {
-    return Report.findByIdAndUpdate(id, { status }, { new: true });
+exports.updateStatus = (id, status, adminNote) => {
+    const update = { status };
+    if (adminNote !== undefined && adminNote !== null) {
+        update.adminNote = adminNote;
+    }
+    return Report.findByIdAndUpdate(id, update, { new: true });
 };

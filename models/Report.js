@@ -23,6 +23,12 @@ const reportSchema = new mongoose.Schema({
         type: String,
         enum: ['pending', 'resolved', 'dismissed'],
         default: 'pending'
+    },
+
+    // Ghi chú của admin khi duyệt / từ chối báo cáo
+    adminNote: {
+        type: String,
+        default: ''
     }
 }, {
     timestamps: true

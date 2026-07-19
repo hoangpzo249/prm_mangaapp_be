@@ -89,6 +89,15 @@ exports.countVisibleByStoryId = (storyId) => {
     return Chapter.countDocuments({ storyId, isHidden: { $ne: true } });
 };
 
+/** Đếm chapter VIP đang hiển thị của truyện — dùng cho refund khi ẩn cả truyện */
+exports.countVisibleVipByStoryId = (storyId) => {
+    return Chapter.countDocuments({
+        storyId,
+        isVip: true,
+        isHidden: { $ne: true }
+    });
+};
+
 /** Danh sách chapter đã ẩn của truyện — cho admin xem/khôi phục */
 exports.findHiddenByStoryId = (storyId) => {
     return Chapter.find({ storyId, isHidden: true })

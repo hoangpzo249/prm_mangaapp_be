@@ -3,6 +3,8 @@
 // ============================================================
 
 const isNonEmptyString = (v) => typeof v === 'string' && v.trim().length > 0;
+const isObjectIdLike = (v) => typeof v === 'string' && /^[a-fA-F0-9]{24}$/.test(v);
+const isGenreIdArray = (v) => Array.isArray(v) && v.every(isObjectIdLike);
 
 /** Rules cho POST /api/stories (tạo truyện) */
 const createStoryRules = [
@@ -10,6 +12,12 @@ const createStoryRules = [
         field: 'title',
         check: isNonEmptyString,
         message: 'Tên truyện là bắt buộc'
+    },
+    {
+        field: 'genres',
+        check: (v) => v === undefined || isGenreIdArray(v),
+        message: 'Genres phải là mảng ObjectId của Genre',
+        optional: true
     }
 ];
 
@@ -23,8 +31,8 @@ const updateStoryRules = [
     },
     {
         field: 'genres',
-        check: (v) => !v || Array.isArray(v),
-        message: 'Genres phải là mảng',
+        check: (v) => v === undefined || isGenreIdArray(v),
+        message: 'Genres phải là mảng ObjectId của Genre',
         optional: true
     }
 ];

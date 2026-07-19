@@ -9,6 +9,7 @@ const Wallet = require('../models/Wallet');
 const VipPackage = require('../models/VipPackage');
 const Story = require('../models/Story');
 const Chapter = require('../models/Chapter');
+const Genre = require('../models/Genre');
 const Bookmark = require('../models/Bookmark');
 const History = require('../models/History');
 const Rating = require('../models/Rating');
@@ -16,12 +17,17 @@ const Comment = require('../models/Comment');
 const Transaction = require('../models/Transaction');
 const UserSubscription = require('../models/UserSubscription');
 const Notification = require('../models/Notification');
+const slugify = require('../utils/slugify');
 
 const sampleGenres = ['Hành động', 'Kỳ ảo', 'Võ thuật', 'Hài hước', 'Tình cảm', 'Phiêu lưu'];
 
+// Gán tại lúc seed — đã tạo Genre docs trước khi map stories
+let genreIdPool = [];
+
 function getRandomGenres() {
+  if (genreIdPool.length === 0) return [];
   const count = Math.floor(Math.random() * 3) + 1;
-  const shuffled = sampleGenres.sort(() => 0.5 - Math.random());
+  const shuffled = [...genreIdPool].sort(() => 0.5 - Math.random());
   return shuffled.slice(0, count);
 }
 
@@ -53,6 +59,7 @@ async function seedAll() {
     // 0. Dọn dẹp TOÀN BỘ Collections
     await Story.deleteMany({});
     await Chapter.deleteMany({});
+    await Genre.deleteMany({});
     await User.deleteMany({});
     await Wallet.deleteMany({});
     await VipPackage.deleteMany({});
@@ -65,7 +72,18 @@ async function seedAll() {
     await Notification.deleteMany({});
     console.log('🧹 Đã dọn dẹp sạch Database.');
 
-    // 1. Import Story & Chapter từ file raw JSON
+    // 1. Tạo Genres — phải trước Story để có ObjectId gắn refs
+    const genres = await Genre.insertMany(
+      sampleGenres.map((name) => ({
+        name,
+        slug: slugify(name),
+        isActive: true
+      }))
+    );
+    genreIdPool = genres.map(g => g._id);
+    console.log(`✅ Đã tạo ${genres.length} Genres.`);
+
+    // 2. Import Story & Chapter từ file raw JSON
     const storiesRaw = JSON.parse(fs.readFileSync(path.join(__dirname, 'mma_project.stories.json'), 'utf8'));
     const chaptersRaw = JSON.parse(fs.readFileSync(path.join(__dirname, 'mma_project.chapters.json'), 'utf8'));
 

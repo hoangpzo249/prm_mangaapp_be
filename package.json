@@ -14,7 +14,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "nodemon server"
   },
   "dependencies": {
@@ -26,10 +26,17 @@
     "mongoose": "^9.7.3",
     "nodemailer": "^9.0.3",
     "nodemon": "^3.1.14",
+<<<<<<< HEAD
+    "uuid": "^14.0.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+=======
     "uuid": "^14.0.1",
     "vnpay": "^2.5.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
+>>>>>>> main
   }
 }

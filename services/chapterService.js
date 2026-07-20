@@ -1,6 +1,9 @@
 const chapterRepo = require('../repositories/chapterRepository');
 const storyRepo = require('../repositories/storyRepository');
 const userRepo = require('../repositories/userRepository');
+const bookmarkRepo = require('../repositories/bookmarkRepository');
+const notificationService = require('./notificationService');
+
 const AppError = require('../utils/AppError');
 
 // ============================================================
@@ -45,7 +48,47 @@ exports.getChapterContent = async (chapterId, userId) => {
 
 /** Tạo chapter mới (Admin) */
 exports.createChapter = async (data) => {
-    return chapterRepo.create(data);
+    // 1. Kiểm tra truyện tồn tại trước khi tạo chapter
+    const story = await storyRepo.findById(data.storyId);
+
+    if (!story) {
+        throw new AppError('Truyện không tồn tại', 404);
+    }
+
+    // 2. Tạo chapter
+    const chapter = await chapterRepo.create(data);
+
+    // Tránh trường hợp storyId đã được populate thành object
+    const actualStoryId =
+        chapter.storyId?._id || chapter.storyId;
+
+    // 3. Tìm những người đã bookmark truyện
+    const followers =
+        await bookmarkRepo.findUsersByStoryId(actualStoryId);
+
+    // 4. Tạo danh sách thông báo
+    const notifications = followers.map((user) => ({
+        userId: user.userId,
+
+        type: 'NEW_CHAPTER',
+
+        title: 'Chapter mới',
+
+        message:
+            `${story.title} đã cập nhật Chapter ${chapter.chapterNumber}`,
+
+        link:
+            `/story/${actualStoryId}/chapter/${chapter._id}`,
+    }));
+
+    // 5. Gửi nhiều thông báo
+    if (notifications.length > 0) {
+        await notificationService.sendBulkNotification(
+            notifications,
+        );
+    }
+
+    return chapter;
 };
 
 /** Cập nhật chapter */

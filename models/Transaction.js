@@ -26,9 +26,11 @@ const transactionSchema = new mongoose.Schema({
     },
 
     // Loại giao dịch
+    // - REFUND_CHAPTER_HIDE: bồi thường xu khi admin ẩn chapter VIP / truyện
+    //   chứa VIP mà user đã từng đọc
     type: {
         type: String,
-        enum: ['DEPOSIT', 'BUY_VIP'],
+        enum: ['DEPOSIT', 'BUY_VIP', 'REFUND_CHAPTER_HIDE'],
         required: [true, 'Loại giao dịch là bắt buộc']
     },
 
@@ -67,14 +69,12 @@ const transactionSchema = new mongoose.Schema({
 
     // Mã giao dịch từ đối tác cổng thanh toán (MoMo, ZaloPay...)
     gatewayTransactionId: {
-        type: String,
-        default: null
+        type: String
     },
 
     // Mã đơn hàng tự sinh của hệ thống
     appTransactionId: {
-        type: String,
-        default: null
+        type: String
     },
 
     // Ghi chú / mô tả giao dịch

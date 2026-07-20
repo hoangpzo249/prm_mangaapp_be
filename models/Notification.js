@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 // - NEW_CHAPTER: Truyện đã bookmark có chapter mới
 // - REPLY_COMMENT: Có người reply comment của bạn
 // - SYSTEM: Thông báo hệ thống (bảo trì, khuyến mãi...)
+// - REFUND: Bồi thường xu khi truyện/chapter VIP đã đọc bị ẩn
 // ============================================================
 
 const notificationSchema = new mongoose.Schema({
@@ -19,7 +20,7 @@ const notificationSchema = new mongoose.Schema({
     // Loại thông báo
     type: {
         type: String,
-        enum: ['NEW_CHAPTER', 'REPLY_COMMENT', 'SYSTEM'],
+        enum: ['NEW_CHAPTER', 'REPLY_COMMENT', 'SYSTEM', 'REFUND'],
         required: [true, 'Loại thông báo là bắt buộc']
     },
 

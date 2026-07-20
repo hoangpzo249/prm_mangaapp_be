@@ -37,3 +37,7 @@ exports.markAsRead = (id) => {
 exports.markAllAsRead = (userId) => {
     return Notification.updateMany({ userId, isRead: false }, { isRead: true });
 };
+
+exports.createMany = (data)=>{
+    return Notification.insertMany(data);
+};

@@ -28,4 +28,20 @@ const adminUpdateUserRules = [
     }
 ];
 
-module.exports = { adminCreateUserRules, adminUpdateUserRules };
+/** Rules cho PUT /api/users/me (user tự update) */
+const updateProfileRules = [
+    {
+        field: 'fullName',
+        optional: true,
+        check: (v) => typeof v === 'string' && v.trim().length <= 100,
+        message: 'Họ tên tối đa 100 ký tự'
+    },
+    {
+        field: 'avatar',
+        optional: true,
+        check: (v) => typeof v === 'string',
+        message: 'Avatar phải là một chuỗi URL'
+    }
+];
+
+module.exports = { adminCreateUserRules, adminUpdateUserRules, updateProfileRules };

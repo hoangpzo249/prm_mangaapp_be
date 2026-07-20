@@ -1,8 +1,15 @@
 const authService = require('../services/authService');
 
-// ============================================================
-// Auth Controller — Đăng ký & Đăng nhập
-// ============================================================
+
+
+exports.sendRegisterOtp = async (req, res, next) => {
+    try {
+        const result = await authService.sendRegisterOtp(req.body.email);
+        res.json(result);
+    } catch (error) {
+        next(error);
+    }
+};
 
 exports.register = async (req, res, next) => {
     try {
@@ -16,6 +23,33 @@ exports.register = async (req, res, next) => {
 exports.login = async (req, res, next) => {
     try {
         const result = await authService.login(req.body);
+        res.json(result);
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.forgotPassword = async (req, res, next) => {
+    try {
+        const result = await authService.forgotPassword(req.body.email);
+        res.json(result);
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.resetPassword = async (req, res, next) => {
+    try {
+        const result = await authService.resetPassword(req.body);
+        res.json(result);
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.changePassword = async (req, res, next) => {
+    try {
+        const result = await authService.changePassword(req.user.id, req.body);
         res.json(result);
     } catch (error) {
         next(error);

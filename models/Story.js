@@ -39,9 +39,10 @@ const storySchema = new mongoose.Schema({
         default: 'Đang cập nhật...'
     },
 
-    // Danh sách thể loại
+    // Danh sách thể loại — tham chiếu tới Genre
     genres: [{
-        type: String
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Genre'
     }],
 
     // Tổng lượt xem
@@ -61,6 +62,12 @@ const storySchema = new mongoose.Schema({
         type: String,
         enum: ['Ongoing', 'Complete'],
         default: 'Ongoing'
+    },
+
+    // Trạng thái ẩn do bị report
+    isHidden: {
+        type: Boolean,
+        default: false
     }
 
 }, {

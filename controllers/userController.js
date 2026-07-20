@@ -1,13 +1,19 @@
 const userService = require('../services/userService');
 
-// ============================================================
-// User Controller — Quản lý user (getMe + Admin CRUD)
-// ============================================================
 
 exports.getMe = async (req, res, next) => {
     try {
         const user = await userService.getMe(req.user.id);
         res.json(user);
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.updateProfile = async (req, res, next) => {
+    try {
+        const user = await userService.updateProfile(req.user.id, req.body);
+        res.json({ message: 'Cập nhật profile thành công', user });
     } catch (error) {
         next(error);
     }
@@ -44,6 +50,29 @@ exports.adminDeleteUser = async (req, res, next) => {
     try {
         const result = await userService.adminDeleteUser(req.params.id);
         res.json(result);
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.adminResetPassword = async (req, res, next) => {
+    try {
+        const result = await userService.adminResetPassword(req.params.id, req.body);
+        res.json(result);
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.adminCreateUser = async (req, res, next) => {
+    try {
+        const result = await userService.adminCreateUser(req.body);
+
+        return res.status(201).json({
+            success: true,
+            message: 'Tạo người dùng thành công',
+            data: result,
+        });
     } catch (error) {
         next(error);
     }

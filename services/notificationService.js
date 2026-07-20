@@ -36,3 +36,7 @@ exports.markAllAsRead = async (userId) => {
 exports.sendNotification = async (data) => {
     return notificationRepo.create(data);
 };
+
+exports.sendBulkNotification = async(data)=>{
+    return notificationRepo.createMany(data);
+};

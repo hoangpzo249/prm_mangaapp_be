@@ -17,7 +17,7 @@ exports.createReport = async (reporterId, { targetType, targetId, reason }) => {
         if (!comment) throw new AppError('Bình luận được báo cáo không tồn tại', 404);
 
         if (comment.userId?.toString() === reporterId.toString()) {
-            throw new AppError('Bạn không thể tự báo cáo bình luận của chính mình', 400);
+            throw new AppError('Bạn không thể báo cáo bình luận của chính mình', 400);
         }
     } else {
         const story = await Story.findById(targetId);

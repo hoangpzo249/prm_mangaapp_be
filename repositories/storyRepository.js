@@ -52,12 +52,37 @@ exports.findByIdIncludeHidden = (id) => {
     return Story.findById(id);
 };
 
-/** Danh sách truyện đã ẩn — cho admin xem/khôi phục */
-exports.findHidden = () => {
-    return Story.find({ isHidden: true })
+/** Danh sách truyện đã ẩn — cho admin xem/khôi phục.
+ *  Manual-populate genres để không crash khi gặp genres không hợp lệ
+ *  (ObjectId sai định dạng do dữ liệu cũ / import). */
+exports.findHidden = async () => {
+    const stories = await Story.find({ isHidden: true })
         .sort({ updatedAt: -1 })
-        .populate(GENRE_POPULATE)
         .lean();
+
+    const validGenreIds = new Set();
+    for (const s of stories) {
+        for (const g of s.genres || []) {
+            const id = String(g);
+            if (/^[a-fA-F0-9]{24}$/.test(id)) validGenreIds.add(id);
+        }
+    }
+
+    if (validGenreIds.size === 0) {
+        return stories.map(s => ({ ...s, genres: [] }));
+    }
+
+    const genres = await Genre.find({ _id: { $in: [...validGenreIds] } })
+        .select('name slug')
+        .lean();
+    const genreMap = new Map(genres.map(g => [String(g._id), g]));
+
+    return stories.map(s => ({
+        ...s,
+        genres: (s.genres || [])
+            .map(g => genreMap.get(String(g)))
+            .filter(Boolean)
+    }));
 };
 
 exports.incrementChapterCount = (id) => {

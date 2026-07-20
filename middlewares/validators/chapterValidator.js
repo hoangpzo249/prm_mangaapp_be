@@ -5,6 +5,8 @@
 const mongoose = require('mongoose');
 const isObjectId = (v) => mongoose.Types.ObjectId.isValid(v);
 
+const isNonEmptyString = (v) => typeof v === 'string' && v.trim().length > 0;
+
 /** Rules cho POST /api/chapters (tạo chapter) */
 const createChapterRules = [
     {
@@ -16,6 +18,11 @@ const createChapterRules = [
         field: 'chapterNumber',
         check: (v) => typeof v === 'number' && v > 0,
         message: 'chapterNumber là bắt buộc và phải > 0'
+    },
+    {
+        field: 'image',
+        check: (v) => Array.isArray(v) && v.filter(isNonEmptyString).length >= 2,
+        message: 'Chương phải có ít nhất 2 ảnh'
     }
 ];
 

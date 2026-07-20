@@ -21,7 +21,7 @@ const auth = (req, res, next) => {
         const token = authHeader.split(' ')[1];
         const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
-        // Gắn thông tin user vào request để các layer sau dùng
+
         req.user = {
             id: decoded.id,
             role: decoded.role
@@ -32,15 +32,11 @@ const auth = (req, res, next) => {
         if (error instanceof AppError) {
             return res.status(error.statusCode).json({ message: error.message });
         }
-        // JWT errors: expired, malformed, invalid signature
+
         return res.status(401).json({ message: 'Token không hợp lệ hoặc đã hết hạn' });
     }
 };
 
-/**
- * Middleware tùy chọn đăng nhập — không throw lỗi nếu không có token
- * Dùng cho endpoint cần biết user nhưng không bắt buộc (VD: xem chapter)
- */
 const optionalAuth = (req, res, next) => {
     try {
         const authHeader = req.headers.authorization;

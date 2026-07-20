@@ -30,3 +30,10 @@ exports.delete = (id) => {
 exports.countByStory = (storyId) => {
     return Bookmark.countDocuments({ storyId });
 };
+
+/** Lấy danh sách user đang bookmark truyện */
+exports.findUsersByStoryId = (storyId) => {
+    return Bookmark.find({ storyId })
+        .select('userId')
+        .lean();
+};

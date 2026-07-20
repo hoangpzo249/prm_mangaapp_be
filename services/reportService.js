@@ -12,10 +12,13 @@ exports.createReport = async (reporterId, { targetType, targetId, reason }) => {
         throw new AppError('targetType không hợp lệ', 400);
     }
 
-    // Verify target exists
     if (targetType === 'comment') {
         const comment = await Comment.findById(targetId);
         if (!comment) throw new AppError('Bình luận được báo cáo không tồn tại', 404);
+
+        if (comment.userId?.toString() === reporterId.toString()) {
+            throw new AppError('Bạn không thể tự báo cáo bình luận của chính mình', 400);
+        }
     } else {
         const story = await Story.findById(targetId);
         if (!story) throw new AppError('Truyện được báo cáo không tồn tại', 404);

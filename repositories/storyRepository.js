@@ -1,15 +1,23 @@
 const Story = require('../models/Story');
+const Genre = require('../models/Genre');
 
 // ============================================================
 // Story Repository — Data access layer cho Story
 // ============================================================
 
+// Field select mặc định khi populate genres (bỏ createdAt/updatedAt/__v)
+const GENRE_POPULATE = { path: 'genres', select: 'name slug' };
+
 exports.findAll = (select) => {
-    return Story.find({ isHidden: { $ne: true } }).select(select || '').lean();
+    return Story.find({ isHidden: { $ne: true } })
+        .select(select || '')
+        .populate(GENRE_POPULATE)
+        .lean();
 };
 
 exports.findById = (id) => {
-    return Story.findOne({ _id: id, isHidden: { $ne: true } });
+    return Story.findOne({ _id: id, isHidden: { $ne: true } })
+        .populate(GENRE_POPULATE);
 };
 
 exports.create = (data) => {
@@ -44,11 +52,37 @@ exports.findByIdIncludeHidden = (id) => {
     return Story.findById(id);
 };
 
-/** Danh sách truyện đã ẩn — cho admin xem/khôi phục */
-exports.findHidden = () => {
-    return Story.find({ isHidden: true })
+/** Danh sách truyện đã ẩn — cho admin xem/khôi phục.
+ *  Manual-populate genres để không crash khi gặp genres không hợp lệ
+ *  (ObjectId sai định dạng do dữ liệu cũ / import). */
+exports.findHidden = async () => {
+    const stories = await Story.find({ isHidden: true })
         .sort({ updatedAt: -1 })
         .lean();
+
+    const validGenreIds = new Set();
+    for (const s of stories) {
+        for (const g of s.genres || []) {
+            const id = String(g);
+            if (/^[a-fA-F0-9]{24}$/.test(id)) validGenreIds.add(id);
+        }
+    }
+
+    if (validGenreIds.size === 0) {
+        return stories.map(s => ({ ...s, genres: [] }));
+    }
+
+    const genres = await Genre.find({ _id: { $in: [...validGenreIds] } })
+        .select('name slug')
+        .lean();
+    const genreMap = new Map(genres.map(g => [String(g._id), g]));
+
+    return stories.map(s => ({
+        ...s,
+        genres: (s.genres || [])
+            .map(g => genreMap.get(String(g)))
+            .filter(Boolean)
+    }));
 };
 
 exports.incrementChapterCount = (id) => {
@@ -61,7 +95,8 @@ exports.decrementChapterCount = (id) => {
 
 /** Tăng lượt xem + trả về story mới */
 exports.incrementViews = (id) => {
-    return Story.findOneAndUpdate({ _id: id, isHidden: { $ne: true } }, { $inc: { views: 1 } }, { new: true });
+    return Story.findOneAndUpdate({ _id: id, isHidden: { $ne: true } }, { $inc: { views: 1 } }, { new: true })
+        .populate(GENRE_POPULATE);
 };
 
 /** Truyện hot — sắp xếp theo views giảm dần */
@@ -69,7 +104,8 @@ exports.findHot = (limit = 5) => {
     return Story.find({ isHidden: { $ne: true } })
         .sort({ views: -1 })
         .limit(limit)
-        .select('title thumbnail views slug description')
+        .select('title thumbnail views slug description genres')
+        .populate(GENRE_POPULATE)
         .lean();
 };
 
@@ -78,12 +114,13 @@ exports.findRecent = (limit = 10) => {
     return Story.find({ isHidden: { $ne: true } })
         .sort({ updatedAt: -1 })
         .limit(limit)
+        .populate(GENRE_POPULATE)
         .lean();
 };
 
 /** Random truyện cho Featured section */
-exports.findRandom = (size = 10) => {
-    return Story.aggregate([
+exports.findRandom = async (size = 10) => {
+    const stories = await Story.aggregate([
         { $match: { isHidden: { $ne: true } } },
         { $sample: { size } },
         {
@@ -93,6 +130,24 @@ exports.findRandom = (size = 10) => {
             }
         }
     ]);
+
+    // $lookup thay thế populate cho aggregate — gọn hơn khi cần vài field
+    const genreIds = [...new Set(
+        stories.flatMap(s => (s.genres || []).map(String))
+    )];
+    if (genreIds.length === 0) return stories;
+
+    const genres = await Genre.find({ _id: { $in: genreIds } })
+        .select('name slug')
+        .lean();
+    const genreMap = new Map(genres.map(g => [String(g._id), g]));
+
+    return stories.map(s => ({
+        ...s,
+        genres: (s.genres || [])
+            .map(id => genreMap.get(String(id)))
+            .filter(Boolean)
+    }));
 };
 
 /** Tìm kiếm theo keyword (regex trên title) */
@@ -100,5 +155,7 @@ exports.search = (keyword) => {
     return Story.find({
         title: { $regex: keyword, $options: 'i' },
         isHidden: { $ne: true }
-    }).lean();
+    })
+        .populate(GENRE_POPULATE)
+        .lean();
 };

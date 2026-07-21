@@ -1,7 +1,9 @@
 const bcrypt = require('bcrypt');
+const crypto = require('crypto');
 const userRepo = require('../repositories/userRepository');
 const walletRepo = require('../repositories/walletRepository');
 const AppError = require('../utils/AppError');
+const { sendEmail } = require('../utils/email');
 
 // ============================================================
 // User Service — CRUD User (chủ yếu Admin)
@@ -37,16 +39,9 @@ exports.getMe = async (userId) => {
 exports.updateProfile = async (userId, data) => {
     const allowedFields = {};
     if (data.fullName !== undefined) allowedFields.fullName = data.fullName;
+    if (data.avatar !== undefined) allowedFields.avatar = data.avatar;
 
     const user = await userRepo.update(userId, allowedFields);
-    if (!user) throw new AppError('User không tồn tại', 404);
-
-    return user;
-};
-
-/** User cập nhật avatar */
-exports.uploadAvatar = async (userId, avatarUrl) => {
-    const user = await userRepo.update(userId, { avatar: avatarUrl });
     if (!user) throw new AppError('User không tồn tại', 404);
 
     return user;
@@ -81,12 +76,8 @@ exports.adminCreateUser = async (data) => {
 
 /** Admin: Cập nhật user */
 exports.adminUpdateUser = async (userId, data) => {
-    // Chỉ cho phép update các field an toàn
     const allowedFields = {};
-    if (data.fullName !== undefined) allowedFields.fullName = data.fullName;
-    if (data.role !== undefined) allowedFields.role = data.role;
     if (data.isBanned !== undefined) allowedFields.isBanned = data.isBanned;
-    if (data.vipUntil !== undefined) allowedFields.vipUntil = data.vipUntil;
 
     const user = await userRepo.update(userId, allowedFields);
     if (!user) throw new AppError('User không tồn tại', 404);
@@ -102,15 +93,25 @@ exports.adminDeleteUser = async (userId) => {
 };
 
 /** Admin: Reset password cho user */
-exports.adminResetPassword = async (userId, { newPassword }) => {
-    if (!newPassword || newPassword.length < 6) {
-        throw new AppError('Mật khẩu mới là bắt buộc và phải có ít nhất 6 ký tự', 400);
+exports.adminResetPassword = async (userId) => {
+    const user = await userRepo.findById(userId);
+    if (!user) throw new AppError('User không tồn tại', 404);
+
+    if (!user.email) {
+        throw new AppError('Người dùng chưa có email để gửi mật khẩu mới', 400);
     }
+
+    const newPassword = crypto.randomBytes(8).toString('hex');
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(newPassword, salt);
 
-    const user = await userRepo.update(userId, { password: hashedPassword });
-    if (!user) throw new AppError('User không tồn tại', 404);
+    await userRepo.update(userId, { password: hashedPassword });
 
-    return { message: 'Đổi mật khẩu thành công' };
+    const subject = 'Mật khẩu mới từ hệ thống Manga App';
+    const text = `Mật khẩu mới của bạn là: ${newPassword}. Vui lòng đổi lại sau khi đăng nhập.`;
+    const html = `<p>Mật khẩu mới của bạn là: <b>${newPassword}</b></p><p>Vui lòng đổi lại sau khi đăng nhập.</p>`;
+
+    await sendEmail(user.email, subject, text, html);
+
+    return { message: 'Đã reset mật khẩu và gửi mật khẩu mới qua email' };
 };

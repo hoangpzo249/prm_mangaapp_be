@@ -31,3 +31,16 @@ exports.expireOutdated = () => {
         { status: 'EXPIRED' }
     );
 };
+
+/**
+ * Lọc trong tập userIds những ai đã từng mua VIP (có ít nhất 1 subscription).
+ * Dùng cho refund policy: chỉ hoàn xu cho user đã từng là VIP.
+ */
+exports.filterUsersEverSubscribed = async (userIds) => {
+    if (!userIds || userIds.length === 0) return [];
+    const rows = await UserSubscription.aggregate([
+        { $match: { userId: { $in: userIds } } },
+        { $group: { _id: '$userId' } }
+    ]);
+    return rows.map(r => r._id);
+};

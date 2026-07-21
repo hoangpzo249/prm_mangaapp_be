@@ -11,8 +11,9 @@ exports.createReport = async (req, res, next) => {
 
 exports.getAllReports = async (req, res, next) => {
     try {
-        const reports = await reportService.getAllReports();
-        res.json(reports);
+        const { status, page, limit } = req.query;
+        const result = await reportService.getAllReports({ status, page, limit });
+        res.json(result);
     } catch (error) {
         next(error);
     }

@@ -12,19 +12,22 @@ const vipPackageSchema = new mongoose.Schema({
     // Tên gói — hiển thị trên app (VD: "Gói VIP 1 Tháng")
     name: {
         type: String,
-        required: [true, 'Tên gói là bắt buộc']
+        required: [true, 'Tên gói là bắt buộc'],
+        unique: true
     },
 
     // Số ngày được hưởng VIP (VD: 30, 90, 365)
     durationDays: {
         type: Number,
-        required: [true, 'Số ngày VIP là bắt buộc']
+        required: [true, 'Số ngày VIP là bắt buộc'],
+        min: [1, 'Số ngày VIP phải lớn hơn 0']
     },
 
     // Giá gói tính bằng xu
     priceCoins: {
         type: Number,
-        required: [true, 'Giá xu là bắt buộc']
+        required: [true, 'Giá xu là bắt buộc'],
+        min: [0, 'Giá xu không được âm']
     },
 
     // Mô tả chi tiết gói

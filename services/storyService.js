@@ -91,8 +91,9 @@ exports.updateStory = async (id, data) => {
 
 /** Xóa truyện (Admin) — soft delete + ẩn cascade toàn bộ chapter */
 exports.deleteStory = async (id) => {
-    // Đếm VIP chapter đang hiển thị TRƯỚC khi ẩn để tính refund chính xác
-    const vipChapterCount = await chapterRepo.countVisibleVipByStoryId(id);
+    // Lấy danh sách VIP chapter đang hiển thị TRƯỚC khi ẩn — dùng để
+    // aggregate số chapter mỗi user đã đọc, tính refund công bằng.
+    const vipChapterIds = await chapterRepo.findVisibleVipIdsByStoryId(id);
 
     const story = await storyRepo.softDelete(id);
     if (!story) throw new AppError('Truyện không tồn tại hoặc đã bị ẩn', 404);
@@ -100,14 +101,12 @@ exports.deleteStory = async (id) => {
     await chapterRepo.hideByStoryId(id);
     await storyRepo.update(id, { chapterCount: 0 });
 
-    // Nếu truyện có VIP chapter → bồi thường user đã từng đọc & từng mua VIP
-    let refund = { refundedUsers: 0, coinsPerUser: 0, totalCoins: 0 };
-    if (vipChapterCount > 0) {
-        refund = await refundService.refundForHiddenVipChapters({
+    // Fair refund: mỗi user nhận 5 × (số VIP chapter họ ĐÃ ĐỌC khi đang VIP)
+    let refund = { refundedUsers: 0, totalCoins: 0 };
+    if (vipChapterIds.length > 0) {
+        refund = await refundService.refundForHiddenStory({
             storyId: id,
-            vipChapterCount,
-            description: `Bồi thường ${vipChapterCount} chapter VIP bị ẩn ` +
-                `(truyện "${story.title}")`
+            vipChapterIds
         });
     }
 

@@ -98,6 +98,15 @@ exports.countVisibleVipByStoryId = (storyId) => {
     });
 };
 
+/** Danh sách _id các chapter VIP đang hiển thị — dùng cho refund fair khi ẩn cả truyện */
+exports.findVisibleVipIdsByStoryId = async (storyId) => {
+    const rows = await Chapter.find(
+        { storyId, isVip: true, isHidden: { $ne: true } },
+        { _id: 1 }
+    ).lean();
+    return rows.map(r => r._id);
+};
+
 /** Danh sách chapter đã ẩn của truyện — cho admin xem/khôi phục */
 exports.findHiddenByStoryId = (storyId) => {
     return Chapter.find({ storyId, isHidden: true })

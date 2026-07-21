@@ -3,6 +3,7 @@ const storyRepo = require('../repositories/storyRepository');
 const userRepo = require('../repositories/userRepository');
 const bookmarkRepo = require('../repositories/bookmarkRepository');
 const notificationService = require('./notificationService');
+const refundService = require('./refundService');
 
 const AppError = require('../utils/AppError');
 
@@ -98,9 +99,45 @@ exports.updateChapter = async (id, data) => {
     return chapter;
 };
 
-/** Xóa chapter — dùng findOneAndDelete để trigger hook */
+/** Ẩn chapter (soft delete) — nếu VIP thì hoàn xu cho user đã đọc & từng mua VIP */
 exports.deleteChapter = async (id) => {
-    const chapter = await chapterRepo.delete(id);
-    if (!chapter) throw new AppError('Chapter không tồn tại', 404);
-    return { message: 'Xóa chapter thành công' };
+    // Cần biết chapter thuộc truyện nào và có VIP không TRƯỚC khi ẩn
+    const original = await chapterRepo.findByIdIncludeHidden(id);
+    if (!original || original.isHidden) {
+        throw new AppError('Chapter không tồn tại hoặc đã bị ẩn', 404);
+    }
+
+    const chapter = await chapterRepo.softDelete(id);
+    if (!chapter) throw new AppError('Chapter không tồn tại hoặc đã bị ẩn', 404);
+
+    const storyId = chapter.storyId?._id || chapter.storyId;
+    await storyRepo.decrementChapterCount(storyId);
+
+    let refund = { refundedUsers: 0, coinsPerUser: 0, totalCoins: 0 };
+    if (chapter.isVip) {
+        // Refund công bằng: chỉ user đã đọc CHÍNH chapter này khi đang là VIP
+        refund = await refundService.refundForHiddenVipChapter({
+            storyId,
+            chapterId: chapter._id,
+            chapterNumber: chapter.chapterNumber
+        });
+    }
+
+    return { message: 'Đã ẩn chapter thành công', refund };
+};
+
+/** Khôi phục chapter đã ẩn */
+exports.restoreChapter = async (id) => {
+    const chapter = await chapterRepo.restore(id);
+    if (!chapter) throw new AppError('Chapter không tồn tại hoặc chưa bị ẩn', 404);
+
+    const storyId = chapter.storyId?._id || chapter.storyId;
+    await storyRepo.incrementChapterCount(storyId);
+
+    return { message: 'Đã khôi phục chapter thành công' };
+};
+
+/** Danh sách chapter đã ẩn của truyện (Admin) */
+exports.getHiddenChaptersByStory = async (storyId) => {
+    return chapterRepo.findHiddenByStoryId(storyId);
 };
